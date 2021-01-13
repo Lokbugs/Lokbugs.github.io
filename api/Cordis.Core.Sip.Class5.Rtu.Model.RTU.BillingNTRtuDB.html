@@ -1,0 +1,2285 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BillingNTRtuDB
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BillingNTRtuDB
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB" class="text-break">Class BillingNTRtuDB
+  </h1>
+  <div class="markdown level0 summary"><p>Database	   : BillingNT
+Data Source	: TESLA\DAILY
+Server Version : 13.00.4001</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LinqToDB.Data.DataConnection</span></div>
+    <div class="level2"><span class="xref">BillingNTRtuDB</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.ICloneable</span></div>
+    <div><span class="xref">LinqToDB.IDataContext</span></div>
+    <div><span class="xref">LinqToDB.IEntityServices</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.WriteTraceLine</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LastQuery</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.BeginTransactionAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.BeginTransactionAsync(System.Data.IsolationLevel, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.EnsureConnectionAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.CommitTransactionAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.RollbackTransactionAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.CloseAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.DisposeAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ExecuteNonQueryAsync(System.Data.IDbCommand, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ExecuteScalarAsync(System.Data.IDbCommand, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ExecuteReaderAsync(System.Data.IDbCommand, System.Data.CommandBehavior, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.TurnTraceSwitchOn(System.Diagnostics.TraceLevel)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.AddProviderDetector(System.Func&lt;LinqToDB.Configuration.IConnectionStringSettings, System.String, LinqToDB.DataProvider.IDataProvider&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.AddDataProvider(System.String, LinqToDB.DataProvider.IDataProvider)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.AddDataProvider(LinqToDB.DataProvider.IDataProvider)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.GetDataProvider(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.GetDataProvider(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.GetDataProvider(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.GetRegisteredProviders()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.SetConnectionStrings(System.Collections.Generic.IEnumerable&lt;LinqToDB.Configuration.IConnectionStringSettings&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.AddConfiguration(System.String, System.String, LinqToDB.DataProvider.IDataProvider)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.AddOrSetConfiguration(System.String, System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.SetConnectionString(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.GetConnectionString(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.Close()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.CreateCommand()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.DisposeCommand()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ExecuteNonQuery(System.Data.IDbCommand)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ExecuteScalar(System.Data.IDbCommand)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ExecuteReader(System.Data.IDbCommand, System.Data.CommandBehavior)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ClearObjectReaderCache()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.BeginTransaction()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.BeginTransaction(System.Data.IsolationLevel)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.CommitTransaction()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.RollbackTransaction()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.AddMappingSchema(LinqToDB.Mapping.MappingSchema)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.Clone()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.CheckAndThrowOnDisposed()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.GetTable&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.GetTable&lt;T&gt;(System.Object, System.Reflection.MethodInfo, System.Object[])</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ProcessQuery(LinqToDB.SqlQuery.SqlStatement)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.GetReaderExpression(LinqToDB.Mapping.MappingSchema, System.Data.IDataReader, System.Int32, System.Linq.Expressions.Expression, System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.IsDBNullAllowed(System.Data.IDataReader, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.Clone(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.GetQueryRunner(LinqToDB.Linq.Query, System.Int32, System.Linq.Expressions.Expression, System.Object[])</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ConfigurationString</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.DataProvider</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ConnectionString</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.RetryPolicy</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ID</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.IsMarsEnabled</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.DefaultConfiguration</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.DefaultDataProvider</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnTrace</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnTraceConnection</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.TraceSwitch</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.DefaultSettings</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.Connection</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnEntityCreated</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.CommandTimeout</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.Command</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.Transaction</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.MappingSchema</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.InlineParameters</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.QueryHints</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.NextQueryHints</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.Disposed</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.ThrowOnDisposed</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.SqlProviderFlags</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.DataReaderType</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.CloseAfterUse</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.ContextID</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.CreateSqlProvider</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.LinqToDB.IDataContext.GetSqlOptimizer</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnClosing</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnClosed</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnBeforeConnectionOpen</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnBeforeConnectionOpenAsync</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnConnectionOpened</span>
+    </div>
+    <div>
+      <span class="xref">LinqToDB.Data.DataConnection.OnConnectionOpenedAsync</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.html">Cordis.Core.Sip.Class5.Rtu.Model.RTU</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BillingNTRtuDB : DataConnection, ICloneable, IDataContext, IEntityServices, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB__ctor_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.#ctor*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB__ctor" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.#ctor">BillingNTRtuDB()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BillingNTRtuDB()</code></pre>
+  </div>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB__ctor_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.#ctor*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB__ctor_System_String_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.#ctor(System.String)">BillingNTRtuDB(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BillingNTRtuDB(string configuration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configuration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_access_schedules_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.access_schedules*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_access_schedules" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.access_schedules">access_schedules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;AccessSchedule&gt; access_schedules { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.AccessSchedule.html">AccessSchedule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_additional_forwarding_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.additional_forwarding*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_additional_forwarding" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.additional_forwarding">additional_forwarding</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;AdditionalForwarding&gt; additional_forwarding { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Forwarding.AdditionalForwarding.html">AdditionalForwarding</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_additional_forwardings_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.additional_forwardings*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_additional_forwardings" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.additional_forwardings">additional_forwardings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;AdditionalForwardings&gt; additional_forwardings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdditionalForwardings.html">AdditionalForwardings</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_administrator__allowed_networks_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.administrator__allowed_networks*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_administrator__allowed_networks" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.administrator__allowed_networks">administrator__allowed_networks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;AdministratorAllowedNetwork&gt; administrator__allowed_networks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdministratorAllowedNetwork.html">AdministratorAllowedNetwork</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_administrator__numbering_zones_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.administrator__numbering_zones*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_administrator__numbering_zones" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.administrator__numbering_zones">administrator__numbering_zones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;AdministratorNumberingZone&gt; administrator__numbering_zones { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdministratorNumberingZone.html">AdministratorNumberingZone</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_administrators_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.administrators*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_administrators" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.administrators">administrators</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Administrator&gt; administrators { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Administrator.html">Administrator</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_alarms_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.alarms*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_alarms" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.alarms">alarms</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Alarm&gt; alarms { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Alarm.html">Alarm</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_alias_groups_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.alias_groups*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_alias_groups" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.alias_groups">alias_groups</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;AliasGroup&gt; alias_groups { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.AliasGroup.html">AliasGroup</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_aliases_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.aliases*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_aliases" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.aliases">aliases</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Alias&gt; aliases { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Alias.html">Alias</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_auth_caller_ids_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.auth_caller_ids*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_auth_caller_ids" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.auth_caller_ids">auth_caller_ids</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;AuthCallerId&gt; auth_caller_ids { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.AuthCallerId.html">AuthCallerId</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_black_whiteLists_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.black_whiteLists*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_black_whiteLists" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.black_whiteLists">black_whiteLists</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;BlackWhiteList&gt; black_whiteLists { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BlackWhiteList.html">BlackWhiteList</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_back_orders_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_back_orders*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_back_orders" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_back_orders">call_back_orders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;CallBackOrder&gt; call_back_orders { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallBackOrder.html">CallBackOrder</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_record_rules_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_record_rules*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_record_rules" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_record_rules">call_record_rules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;CallRecordRule&gt; call_record_rules { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecordRule.html">CallRecordRule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_recording_settings_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_recording_settings*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_recording_settings" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_recording_settings">call_recording_settings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;CallRecordingSetting&gt; call_recording_settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecordingSetting.html">CallRecordingSetting</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_records_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_records*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_call_records" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.call_records">call_records</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;CallRecord&gt; call_records { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecord.html">CallRecord</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_chat_room_invitations_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.chat_room_invitations*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_chat_room_invitations" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.chat_room_invitations">chat_room_invitations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;ChatRoomInvitation&gt; chat_room_invitations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.ChatRoomInvitation.html">ChatRoomInvitation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_codec_group__codecs_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.codec_group__codecs*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_codec_group__codecs" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.codec_group__codecs">codec_group__codecs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;CodecGroupCodec&gt; codec_group__codecs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.CodecGroupCodec.html">CodecGroupCodec</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_codec_groups_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.codec_groups*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_codec_groups" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.codec_groups">codec_groups</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;CodecGroup&gt; codec_groups { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.CodecGroup.html">CodecGroup</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_common_settings_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.common_settings*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_common_settings" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.common_settings">common_settings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;CommonSetting&gt; common_settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommonSetting.html">CommonSetting</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_domain_matches_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.domain_matches*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_domain_matches" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.domain_matches">domain_matches</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;DomainMatch&gt; domain_matches { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainMatch.html">DomainMatch</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_domains_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.domains*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_domains" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.domains">domains</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;DomainSettings&gt; domains { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_faxes_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.faxes*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_faxes" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.faxes">faxes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Fax&gt; faxes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Fax.html">Fax</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_follow_me_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.follow_me*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_follow_me" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.follow_me">follow_me</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;FollowMe&gt; follow_me { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.FollowMe.html">FollowMe</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_follow_me_steps_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.follow_me_steps*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_follow_me_steps" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.follow_me_steps">follow_me_steps</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;FollowMeStep&gt; follow_me_steps { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.FollowMeStep.html">FollowMeStep</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_gateway__translations_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.gateway__translations*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_gateway__translations" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.gateway__translations">gateway__translations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;GatewayTranslation&gt; gateway__translations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.GatewayTranslation.html">GatewayTranslation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_gateways_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.gateways*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_gateways" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.gateways">gateways</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Gateway&gt; gateways { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Gateway.html">Gateway</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_group_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.group*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_group" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.group">group</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Group&gt; group { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Group.html">Group</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_group_set2groups_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.group_set2groups*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_group_set2groups" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.group_set2groups">group_set2groups</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;GroupSet2Group&gt; group_set2groups { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet2Group.html">GroupSet2Group</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_group_sets_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.group_sets*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_group_sets" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.group_sets">group_sets</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;GroupSet&gt; group_sets { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet.html">GroupSet</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_hunt_group_agents_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.hunt_group_agents*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_hunt_group_agents" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.hunt_group_agents">hunt_group_agents</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;HuntGroupAgent&gt; hunt_group_agents { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupAgent.html">HuntGroupAgent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_hunt_group_statistic_settings_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.hunt_group_statistic_settings*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_hunt_group_statistic_settings" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.hunt_group_statistic_settings">hunt_group_statistic_settings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;HuntGroupStatisticSetting&gt; hunt_group_statistic_settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupStatisticSetting.html">HuntGroupStatisticSetting</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_ivr_scripts_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.ivr_scripts*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_ivr_scripts" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.ivr_scripts">ivr_scripts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;IvrScript&gt; ivr_scripts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.IvrScript.html">IvrScript</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_leg_limits_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.leg_limits*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_leg_limits" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.leg_limits">leg_limits</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;LegLimit&gt; leg_limits { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.LegLimit.html">LegLimit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_license_service_reports_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.license_service_reports*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_license_service_reports" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.license_service_reports">license_service_reports</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;LicenseServiceReport&gt; license_service_reports { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.LicenseServiceReport.html">LicenseServiceReport</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_license_usage_reports_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.license_usage_reports*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_license_usage_reports" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.license_usage_reports">license_usage_reports</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;LicenseUsageReport&gt; license_usage_reports { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.LicenseUsageReport.html">LicenseUsageReport</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_mass_calling_service__client_numbers_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.mass_calling_service__client_numbers*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_mass_calling_service__client_numbers" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.mass_calling_service__client_numbers">mass_calling_service__client_numbers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;MassCallingServiceClientNumber&gt; mass_calling_service__client_numbers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingServiceClientNumber.html">MassCallingServiceClientNumber</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_mass_calling_service_agents_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.mass_calling_service_agents*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_mass_calling_service_agents" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.mass_calling_service_agents">mass_calling_service_agents</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;MassCallingServiceAgent&gt; mass_calling_service_agents { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingServiceAgent.html">MassCallingServiceAgent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_mass_calling_services_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.mass_calling_services*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_mass_calling_services" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.mass_calling_services">mass_calling_services</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;MassCallingService&gt; mass_calling_services { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingService.html">MassCallingService</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_number_intervals_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.number_intervals*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_number_intervals" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.number_intervals">number_intervals</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;NumberInterval&gt; number_intervals { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.NumberInterval.html">NumberInterval</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_numbering_zones_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.numbering_zones*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_numbering_zones" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.numbering_zones">numbering_zones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;NumberingZone&gt; numbering_zones { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.NumberingZone.html">NumberingZone</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_postroutes_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.postroutes*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_postroutes" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.postroutes">postroutes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Postroute&gt; postroutes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Routing.Postroute.html">Postroute</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_preroutes_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.preroutes*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_preroutes" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.preroutes">preroutes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Preroute&gt; preroutes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Preroute.html">Preroute</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_prompt_categories_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.prompt_categories*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_prompt_categories" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.prompt_categories">prompt_categories</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;PromptCategory&gt; prompt_categories { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptCategory.html">PromptCategory</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_prompt_sets_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.prompt_sets*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_prompt_sets" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.prompt_sets">prompt_sets</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;PromptSet&gt; prompt_sets { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet.html">PromptSet</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_prompts_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.prompts*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_prompts" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.prompts">prompts</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Prompt&gt; prompts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Prompt.html">Prompt</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_registrations_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.registrations*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_registrations" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.registrations">registrations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Registration&gt; registrations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Registration.html">Registration</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_routes_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.routes*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_routes" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.routes">routes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Route&gt; routes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Route.html">Route</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_service_packages_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.service_packages*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_service_packages" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.service_packages">service_packages</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;ServicePackage&gt; service_packages { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServicePackage.html">ServicePackage</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_service_set2groups_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.service_set2groups*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_service_set2groups" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.service_set2groups">service_set2groups</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;ServiceSet2Group&gt; service_set2groups { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet2Group.html">ServiceSet2Group</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_service_sets_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.service_sets*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_service_sets" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.service_sets">service_sets</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;ServiceSet&gt; service_sets { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet.html">ServiceSet</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_services_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.services*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_services" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.services">services</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;DomainVas&gt; services { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainVas.html">DomainVas</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_shedules_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.shedules*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_shedules" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.shedules">shedules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Schedule&gt; shedules { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Schedule.html">Schedule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_speed_dials_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.speed_dials*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_speed_dials" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.speed_dials">speed_dials</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;SpeedDial&gt; speed_dials { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.SpeedDial.html">SpeedDial</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_subscribers_services_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.subscribers_services*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_subscribers_services" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.subscribers_services">subscribers_services</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;SubscribersService&gt; subscribers_services { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.SubscribersService.html">SubscribersService</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_system_voice_mailbox_message_lists_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.system_voice_mailbox_message_lists*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_system_voice_mailbox_message_lists" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.system_voice_mailbox_message_lists">system_voice_mailbox_message_lists</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;SystemVoiceMailboxMessageList&gt; system_voice_mailbox_message_lists { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.SystemVoiceMailboxMessageList.html">SystemVoiceMailboxMessageList</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_SystemVoiceMail__VoiceMailBoxes_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.SystemVoiceMail__VoiceMailBoxes*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_SystemVoiceMail__VoiceMailBoxes" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.SystemVoiceMail__VoiceMailBoxes">SystemVoiceMail__VoiceMailBoxes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;SystemVoiceMail__VoiceMailBox&gt; SystemVoiceMail__VoiceMailBoxes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.SystemVoiceMail__VoiceMailBox.html">SystemVoiceMail__VoiceMailBox</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_terminal_profiles_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.terminal_profiles*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_terminal_profiles" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.terminal_profiles">terminal_profiles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;TerminalProfile&gt; terminal_profiles { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.TerminalProfile.html">TerminalProfile</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_shedules_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_shedules*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_shedules" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_shedules">timetable_shedules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;TimetableSchedule&gt; timetable_shedules { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableSchedule.html">TimetableSchedule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_template_shedules_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_template_shedules*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_template_shedules" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_template_shedules">timetable_template_shedules</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;TimetableTemplateSchedule&gt; timetable_template_shedules { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplateSchedule.html">TimetableTemplateSchedule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_template_week_days_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_template_week_days*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_template_week_days" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_template_week_days">timetable_template_week_days</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;TimetableTemplateWeekDay&gt; timetable_template_week_days { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplateWeekDay.html">TimetableTemplateWeekDay</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_templates_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_templates*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_templates" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_templates">timetable_templates</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;TimetableTemplate&gt; timetable_templates { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplate.html">TimetableTemplate</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_week_days_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_week_days*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetable_week_days" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetable_week_days">timetable_week_days</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;TimetableWeekDay&gt; timetable_week_days { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableWeekDay.html">TimetableWeekDay</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetables_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetables*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_timetables" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.timetables">timetables</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Timetable&gt; timetables { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Timetable.html">Timetable</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_translations_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.translations*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_translations" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.translations">translations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;Translation&gt; translations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Translation.html">Translation</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_audioprogress_bars_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_audioprogress_bars*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_audioprogress_bars" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_audioprogress_bars">user_audioprogress_bars</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;UserAudioProgressBar&gt; user_audioprogress_bars { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserAudioProgressBar.html">UserAudioProgressBar</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_terminal2device_port_phones_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_terminal2device_port_phones*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_terminal2device_port_phones" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_terminal2device_port_phones">user_terminal2device_port_phones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;UserTerminal2DevicePortPhone&gt; user_terminal2device_port_phones { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserTerminal2DevicePortPhone.html">UserTerminal2DevicePortPhone</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_terminals_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_terminals*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_terminals" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_terminals">user_terminals</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;UserTerminal&gt; user_terminals { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.UserTerminal.html">UserTerminal</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_voice_mail_progress_bars_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_voice_mail_progress_bars*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_user_voice_mail_progress_bars" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.user_voice_mail_progress_bars">user_voice_mail_progress_bars</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;UserVoiceMailProgressBar&gt; user_voice_mail_progress_bars { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserVoiceMailProgressBar.html">UserVoiceMailProgressBar</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_users_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.users*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_users" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.users">users</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;User&gt; users { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_voice_mail_message_lists_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.voice_mail_message_lists*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_voice_mail_message_lists" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.voice_mail_message_lists">voice_mail_message_lists</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;VoiceMailMessageList&gt; voice_mail_message_lists { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMailMessageList.html">VoiceMailMessageList</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_voice_mail_messages_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.voice_mail_messages*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_voice_mail_messages" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.voice_mail_messages">voice_mail_messages</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;VoiceMailMessage&gt; voice_mail_messages { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMailMessage.html">VoiceMailMessage</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_voice_mails_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.voice_mails*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_voice_mails" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.voice_mails">voice_mails</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;VoiceMail&gt; voice_mails { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMail.html">VoiceMail</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_vote_phones_" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.vote_phones*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Model_RTU_BillingNTRtuDB_vote_phones" data-uid="Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.vote_phones">vote_phones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITable&lt;VotePhone&gt; vote_phones { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.VotePhone.html">VotePhone</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.ICloneable</span>
+  </div>
+  <div>
+      <span class="xref">LinqToDB.IDataContext</span>
+  </div>
+  <div>
+      <span class="xref">LinqToDB.IEntityServices</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

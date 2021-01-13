@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ICallInfoService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ICallInfoService
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService" class="text-break">Interface ICallInfoService
+  </h1>
+  <div class="markdown level0 summary"><p>Интерфейс сервиса работы с информацией о совершенных вызовах.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Settings.Interface.html">Cordis.Core.Sip.Class5.Settings.Interface</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICallInfoService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_DeleteCallRecordsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.DeleteCallRecordsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_DeleteCallRecordsAsync_System_Collections_Generic_IEnumerable_System_Int64__" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.DeleteCallRecordsAsync(System.Collections.Generic.IEnumerable{System.Int64})">DeleteCallRecordsAsync(IEnumerable&lt;Int64&gt;)</h4>
+  <div class="markdown level1 summary"><p>Асинхронно удаляет записи разговоров.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteCallRecordsAsync(IEnumerable&lt;long&gt; recordIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">recordIds</span></td>
+        <td><p>Идентификаторы записей разговоров в таблице RTU.call_record.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_DownloadCallRecordAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.DownloadCallRecordAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_DownloadCallRecordAsync_System_Int64_" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.DownloadCallRecordAsync(System.Int64)">DownloadCallRecordAsync(Int64)</h4>
+  <div class="markdown level1 summary"><p>Асинхронно возвращает байты аудио-файла указанной записи разговора.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;byte[]&gt; DownloadCallRecordAsync(long recordId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">recordId</span></td>
+        <td><p>Идентификатор записи разговора в таблице RTU.call_record.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
+        <td><p>Байты аудио-файла.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_DownloadCallRecordsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.DownloadCallRecordsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_DownloadCallRecordsAsync_System_Collections_Generic_IEnumerable_System_Int64__" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.DownloadCallRecordsAsync(System.Collections.Generic.IEnumerable{System.Int64})">DownloadCallRecordsAsync(IEnumerable&lt;Int64&gt;)</h4>
+  <div class="markdown level1 summary"><p>Асинхронно возвращает байты аудио-файла указанной записи разговора.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;CallRecord&gt;&gt; DownloadCallRecordsAsync(IEnumerable&lt;long&gt; recordIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">recordIds</span></td>
+        <td><p>Идентификаторы записей разговоров в таблице RTU.call_record.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallRecord.html">CallRecord</a>&gt;&gt;</td>
+        <td><p>Байты аудио-файла.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_GetByVteIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.GetByVteIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_GetByVteIdAsync_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.GetByVteIdAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Nullable{System.Int32})">GetByVteIdAsync(Int32, DateTime, DateTime, Int32, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Асинхронно возвращает список объектов с информацией о вызовах.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;CallInfo&gt;&gt; GetByVteIdAsync(int vteId, DateTime startPeriod, DateTime endPeriod, int skip, int? count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">startPeriod</span></td>
+        <td><p>Дата и время начала периода.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">endPeriod</span></td>
+        <td><p>Дата и время конца периода.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">skip</span></td>
+        <td><p>Количество записей которое требуется пропустить.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Максимально допустимый размер списка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfo.html">CallInfo</a>&gt;&gt;</td>
+        <td><p>Список объектов с информацией о вызовах.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_GetCallRecordInfosAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.GetCallRecordInfosAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_GetCallRecordInfosAsync_System_Collections_Generic_IEnumerable_System_Int64__" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.GetCallRecordInfosAsync(System.Collections.Generic.IEnumerable{System.Int64})">GetCallRecordInfosAsync(IEnumerable&lt;Int64&gt;)</h4>
+  <div class="markdown level1 summary"><p>Асинхронно получает информацию о записях разговоров по идентификаторам.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;CallRecordInfo&gt;&gt; GetCallRecordInfosAsync(IEnumerable&lt;long&gt; recordIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">recordIds</span></td>
+        <td><p>Идентификаторы разговора.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallRecordInfo.html">CallRecordInfo</a>&gt;&gt;</td>
+        <td><p>Информация о записях разговоров.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_Syn_StatisticAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.Syn&#1089;StatisticAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Interface_ICallInfoService_Syn_StatisticAsync_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync__" data-uid="Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.Syn&#1089;StatisticAsync(System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync})">Syn&#1089;StatisticAsync(IEnumerable&lt;CallInfoSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Асинхронно загружает в БД новую информацию о записях разговоров.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Syn&#1089;StatisticAsync(IEnumerable&lt;CallInfoSync&gt; syncItems)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td><span class="parametername">syncItems</span></td>
+        <td><p>Перечисление информации о записях разговоров.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

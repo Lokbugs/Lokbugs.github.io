@@ -1,0 +1,3390 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Repositories/Core.Sip.Class5/Cordis.Core.Sip.Class5",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Autofac.AutowiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Autofac.AutowiredAttribute.html",
+          "hash": "TCoKyV2mB4t8i+tdwuE+0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Autofac.AutowiredAutofacModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Autofac.AutowiredAutofacModule.html",
+          "hash": "F9ZGb1Mfg9IubFqxnNbBvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Autofac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Autofac.html",
+          "hash": "l877yWoEyix/ZmiBWcbhAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Extension.RtuNumberFormatExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Extension.RtuNumberFormatExtension.html",
+          "hash": "BRY+wFAWOyTwN/YmaOizuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Extension.html",
+          "hash": "dyiZVnNiQvW2Ht7aAhadkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.DayOfWeekSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.DayOfWeekSchedule.html",
+          "hash": "f/d2QTPQ31igmWJG3SnFzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingDestinationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingDestinationType.html",
+          "hash": "NgDWb24qwDi1N2Nw0Kl6qg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html",
+          "hash": "kWhz/vLDZzoNWM6VFTETfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.Interval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.Interval.html",
+          "hash": "ylBHpoPlcjukEcVRw5LaSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.Schedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.Schedule.html",
+          "hash": "AsvtqhWIIAVmrhAz2qeuKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.State.html",
+          "hash": "MdUNvLxMyTYyCUGceFnXvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.TimetableSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.TimetableSetting.html",
+          "hash": "jxssB6n9wVRS+WSBONxT5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.DataModel.html",
+          "hash": "c1GF2MWUCdK8xjyuBoWYlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.CallDirectionNotAllowedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.CallDirectionNotAllowedException.html",
+          "hash": "QLJdipvYxLwJckU50OLbEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.ExternalNumberIncompliantException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.ExternalNumberIncompliantException.html",
+          "hash": "bNln9BIscRGd6bwlCMbDHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.ForwardingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.ForwardingException.html",
+          "hash": "wHXNdizqSYhuxfYdkw6kCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.ForwardingIdIsNullException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.ForwardingIdIsNullException.html",
+          "hash": "VPNvZB+Q9DKFiTQ3Do9u9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.GroupIncompliantException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.GroupIncompliantException.html",
+          "hash": "To6Py8koJa/oqKgs6f/Zfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.InternalNumberIncompliantException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.InternalNumberIncompliantException.html",
+          "hash": "XkIl9AwIK6+vs8xjxttOhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.InvalidNumberTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.InvalidNumberTypeException.html",
+          "hash": "UmUci4nyV4LtzfZMfznQBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Exception.html",
+          "hash": "ZAIF6fxLza5xVPVnYRMR/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Interface.IForwardingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Interface.IForwardingService.html",
+          "hash": "9ZdA8fq+AVyC5QUbyE9TtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.Interface.html",
+          "hash": "UohM4mT0RVQmXEXUiz4S3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.LineTypes.DataModel.LineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.LineTypes.DataModel.LineType.html",
+          "hash": "sjhdiLHrcvHdhMNeVcqygg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.LineTypes.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Forwarding.LineTypes.DataModel.html",
+          "hash": "q2pYAj3keyhdzoixoO+5zw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Interface.IRtuObjectsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Interface.IRtuObjectsService.html",
+          "hash": "Qg4BZ9thKE4wOWX/oYr3Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Interface.html",
+          "hash": "tihLkQmnbbfxKZTHgZEPtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.Nets.AllowedExternalIPv4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.Nets.AllowedExternalIPv4.html",
+          "hash": "yloiK0WTz+HePcPEo91tWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.Nets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.Nets.html",
+          "hash": "Wz57e+Ebd98upAWjmn0umg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AccessSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AccessSchedule.html",
+          "hash": "XdIDlTmJ3n5xR7cVyn4O4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdditionalForwardings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdditionalForwardings.html",
+          "hash": "S32nfzUYkghT+5Hi5q2/bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdminCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdminCommand.html",
+          "hash": "Hd3Dco4bgzwhy28AS3Y3BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Administrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Administrator.html",
+          "hash": "qIk5ajSzCpBfEEirQ2nppg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdministratorAllowedNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdministratorAllowedNetwork.html",
+          "hash": "vaPOGbkhF5oAlMcryBPYsw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdministratorNumberingZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AdministratorNumberingZone.html",
+          "hash": "UNbJ94bdw9PmqwYO8MC4wg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Alarm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Alarm.html",
+          "hash": "MOnI2VYBGZKDH0Q1tubR3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Alias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Alias.html",
+          "hash": "yibkFrRFaDrLLn3NlEWGHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AliasGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AliasGroup.html",
+          "hash": "A9CFnW2SsCYuXixlcqawLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AuthCallerId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.AuthCallerId.html",
+          "hash": "/FaywAMFSQqD1A7H+OSEyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.BaseTimeIntervalContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.BaseTimeIntervalContainer.html",
+          "hash": "aVsW9lu4tAlkNwgXQt5QHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.BillingNTRtuDB.html",
+          "hash": "wAzCe/qZCR2eLG2vDmbUQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.BlackWhiteList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.BlackWhiteList.html",
+          "hash": "8FIEwzq9YNiQYhKyZMYX+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallBackOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallBackOrder.html",
+          "hash": "kNOomVB4kbneex92K/EuBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecord.html",
+          "hash": "HsFavPOo3GJC9cAu5ugxmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecordRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecordRule.html",
+          "hash": "IH01VoWHWm/wBfK8295Y8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecordingSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CallRecordingSetting.html",
+          "hash": "Os7fcrumUCXKvIceb2Judw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ChatRoomInvitation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ChatRoomInvitation.html",
+          "hash": "VvxMzqkbmojhNN6vqgy/fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CodecGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CodecGroup.html",
+          "hash": "w6dCsq7bkLdLfx8IK+y8EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CodecGroupCodec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CodecGroupCodec.html",
+          "hash": "qCgCZhYt3uTk7fhP2BE7IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.IConvertCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.IConvertCommand.html",
+          "hash": "VxdzwhRBzkBAWCRQiDX4/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.ICreateCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.ICreateCommand.html",
+          "hash": "RVl8GO6hZXgSEtDCXelduQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.IDeleteCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.IDeleteCommand.html",
+          "hash": "93k8R0zM2VuQ+L6hJZZaAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.IUpdateCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.IUpdateCommand.html",
+          "hash": "zBMVXckmMJ2FRa90u4tPBg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommandAccessible.html",
+          "hash": "9webX5A4fdRdST24JdOnZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommonSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.CommonSetting.html",
+          "hash": "3gfnPMfqAJ5ton6KkyHJUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Domain.html",
+          "hash": "nSquxvmcUw48f8c9aIZuOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainMatch.html",
+          "hash": "6Fx1UHYFQmqPIp0C6AoYWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html",
+          "hash": "s/Qb74syHkQPDLCOfP+rLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainVas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainVas.html",
+          "hash": "Xs0VlXmkZTeYDRnfowkRPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Fax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Fax.html",
+          "hash": "YOW+phWDTULpIKdlU6O9uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.FollowMe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.FollowMe.html",
+          "hash": "+ZQOXRVG1iGeymOfQ5LdCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.FollowMeStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.FollowMeStep.html",
+          "hash": "KuZ2icRFIe2Go7XXsxzFaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Forwarding.AdditionalForwarding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Forwarding.AdditionalForwarding.html",
+          "hash": "g4wLDUN37e9/01jkO+/FsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Forwarding.Interval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Forwarding.Interval.html",
+          "hash": "nB7AEydVEm9lSdJcfGc/+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Forwarding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Forwarding.html",
+          "hash": "EZCVJwKQ+oATm1fgqLXTmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Gateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Gateway.html",
+          "hash": "PwO/DFhO3Ejmky7mXx6BFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.GatewayTranslation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.GatewayTranslation.html",
+          "hash": "iuLXas4ogFLuAdWIDouxAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Group.GroupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Group.GroupType.html",
+          "hash": "VI0bl9dO4jobiCRTFyU4Vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Group.html",
+          "hash": "e0V016CcREGPWcf+4qT5iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet.html",
+          "hash": "sRnHSLEKE3MUrntBzYgYcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet2Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet2Group.html",
+          "hash": "L9mPRywVKapJbemHeELVDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupAgent.html",
+          "hash": "d8g6KFBTs8WLmXanhd0LMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupAgentGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupAgentGroup.html",
+          "hash": "nq5O5jX9fCLCxZYTArvqHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupStatisticSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.HuntGroupStatisticSetting.html",
+          "hash": "sig7vymBKu7innUCgYy0Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IAdminCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IAdminCommand.html",
+          "hash": "uWD4/tWwzdDYkYV59+c1Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ICanBeDefault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ICanBeDefault.html",
+          "hash": "mxWoYFayDRR/DzVW88oDgQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IDbEntityWithIntId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IDbEntityWithIntId.html",
+          "hash": "gTqgIYKgTL1B2zN1dL7gCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IDomainElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IDomainElement.html",
+          "hash": "AAvUGnokL+zG3qDwAU3JaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IEntityWithGuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IEntityWithGuid.html",
+          "hash": "RjgZTam+xxdLeI3wJ1MhHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IEntityWithNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IEntityWithNumber.html",
+          "hash": "LRj8PL2/wR3be4PZLVWoRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IFileCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IFileCommand.html",
+          "hash": "H/igzOFf1NHb5LJD9S8Kaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IInheritable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IInheritable.html",
+          "hash": "8KkS1CtyGY71Rxr0ijGI9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IRtuCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IRtuCommand.html",
+          "hash": "IKq+sqibUhG89eq/GEroEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IUserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IUserCommand.html",
+          "hash": "ZCWHr8eICeULXCAaXIeYiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IUserElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IUserElement.html",
+          "hash": "Wrhk0Ic8o4xZxduKivWDRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IvrScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.IvrScript.html",
+          "hash": "axboDB7VDw8EbZ107R5+jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.LegLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.LegLimit.html",
+          "hash": "uiyPDTw5bv3bR0AEY0IHuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.LicenseServiceReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.LicenseServiceReport.html",
+          "hash": "z3BxhSLieiwIOzKgU8JqgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.LicenseUsageReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.LicenseUsageReport.html",
+          "hash": "U1I6aKhlJDyisPjAT8vgRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingService.html",
+          "hash": "VAA2atXM7HZipSQpIG/KvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingServiceAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingServiceAgent.html",
+          "hash": "sxJOabWUk+OCcAaXdqLvag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingServiceClientNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.MassCallingServiceClientNumber.html",
+          "hash": "MRLzScp69MmDSDu3Da5OZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.NumberInterval.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.NumberInterval.html",
+          "hash": "adYqebT7P2kG9jk+34Wseg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.NumberingZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.NumberingZone.html",
+          "hash": "jBVX5aoDK4/Bf1YYsLpaJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Preroute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Preroute.html",
+          "hash": "spZpdQCMBlkFBn8WB/3wow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Prompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Prompt.html",
+          "hash": "Y9e4ieHDhWi/sA0f4TYHlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptCategory.html",
+          "hash": "E3B1g+0cfRKvJmOgo4N+aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet.html",
+          "hash": "rCNq7BP6eQ4dFpBeXIcemg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet2Prompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet2Prompt.html",
+          "hash": "xc0jDVB6riqZZHLofpGTmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Registration.html",
+          "hash": "yPwT7rJB5iLoPhmFbCtydQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Route.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Route.html",
+          "hash": "Ud5Rt/ycqNtrEbIh13ah1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Routing.Postroute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Routing.Postroute.html",
+          "hash": "15ZPx6tgTvDYjrO/23NGUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Routing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Routing.html",
+          "hash": "38Y1s6mpy8+iwn/mO29zBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuCommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuCommandType.html",
+          "hash": "tcUpCugLJ2tIGNQmt+7WaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.ResponseRoot-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.ResponseRoot-1.html",
+          "hash": "/jNC+oPSuCzM1crz0PjIJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.RtuCommandResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.RtuCommandResult-1.html",
+          "hash": "dA19EiwAzy3XORH9IV3kAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.RtuCommandResultItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.RtuCommandResultItem.html",
+          "hash": "0836Rc8zcTEUdvROCO2SmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.RtuError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.RtuError.html",
+          "hash": "l3aQfJ8n365pMxUnzOqWog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuResponse.html",
+          "hash": "//mFamrdMOSniz/Sq+oGFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Schedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Schedule.html",
+          "hash": "s3hNyTP4mECI3yL+n6zJLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServicePackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServicePackage.html",
+          "hash": "MhuCoZvGWjMjOIgiPj9vJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet.html",
+          "hash": "7NNNNfvYaeUAiUkoVZIFNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet2Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet2Group.html",
+          "hash": "5CUL3RTFTOwvLanIXI46jA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SpeedDial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SpeedDial.html",
+          "hash": "CmPVSzWrrXQyV1b9rLS7WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SubscribersService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SubscribersService.html",
+          "hash": "GUWsijiz9yX+WMyY2KKJDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SystemVoiceMail__VoiceMailBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SystemVoiceMail__VoiceMailBox.html",
+          "hash": "fsoCOJrLSCb4wUmmAq7kaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SystemVoiceMailboxMessageList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.SystemVoiceMailboxMessageList.html",
+          "hash": "n/Go1BvvlGCNdxyGQ98I4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TableExtensions.html",
+          "hash": "pp8V7WsODUI8rPg9r5Z5Dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TerminalProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TerminalProfile.html",
+          "hash": "ddhslVl4q8qJCD9zsHVaXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Timetable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Timetable.html",
+          "hash": "wcmRRebNmBWzAMYxxcmmMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableSchedule.html",
+          "hash": "0Ck2DUsNel4EfdGKz/TD5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplate.html",
+          "hash": "PZ6m96bVgC0TYMb73Ch/UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplateSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplateSchedule.html",
+          "hash": "ZEvRR21IPaSC6oKK88dCiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplateWeekDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableTemplateWeekDay.html",
+          "hash": "Dy/ziWRKmq2aqF1oCl1WPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableWeekDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.TimetableWeekDay.html",
+          "hash": "UHLtPYeVzd+lHU3FlNVucQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Translation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.Translation.html",
+          "hash": "FNv0gl4XCqWc0T8sb1swyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html",
+          "hash": "YlKty9P3XK+sHiqZBlQhQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.UserTerminal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.UserTerminal.html",
+          "hash": "3UvE/xAaEMr/GYxYpz2sGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.html",
+          "hash": "O01UbCiV5v/++VgBUtwBIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserAudioProgressBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserAudioProgressBar.html",
+          "hash": "4UA8NINivMYKvCRrchIIwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserCommand.html",
+          "hash": "56xdCeXpAtOfimkK96oAyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserTerminal2DevicePortPhone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserTerminal2DevicePortPhone.html",
+          "hash": "Va0kRxa946p1iDQQldGcow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserVoiceMailProgressBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.UserVoiceMailProgressBar.html",
+          "hash": "kdPrHUV9ts+vbo0F9TcFcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMail.html",
+          "hash": "NWRJB2yH34j8qY6l8TtQtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMailMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMailMessage.html",
+          "hash": "//Hq2zysKn6ijD3DCNaPtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMailMessageList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VoiceMailMessageList.html",
+          "hash": "JQfI649agz1hYl9QcaBbvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VotePhone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.VotePhone.html",
+          "hash": "UcoSP+BWfXfU5HDdoOYiCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.XmlDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.XmlDate.html",
+          "hash": "lROYwVD/yOnlHe3HJ9QbLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Rtu.Model.RTU.html",
+          "hash": "TPt6sJ4elOl9Iez2+AazVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.AccessGroups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.AccessGroups.html",
+          "hash": "Ye0WCvSUKghBAA+rWBLVAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.AdditionalForwardingServiceCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.AdditionalForwardingServiceCode.html",
+          "hash": "p2mqH9OZjkxrEv/AdE9PSQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.AllowedSubnet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.AllowedSubnet.html",
+          "hash": "fLIk/JUib3rSx/i5HpU8zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallAction.html",
+          "hash": "nUWsKpuMHUVXDtZGCoJC2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallActionType.html",
+          "hash": "y2gZ0HHW6MfxVoW9/NNE4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallDirectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallDirectionType.html",
+          "hash": "pPBe/2rrPkxEikV/cP0/uQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallInfo.html",
+          "hash": "6+P0Dz0zhH7S+yz+juUxmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html",
+          "hash": "vTe9Kl1xqOY2O/0/ByKdIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallOperatorsInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallOperatorsInfo.html",
+          "hash": "Mg5BILYgCuW/ZeOGclELCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallRecord.html",
+          "hash": "9dZNnqRHaq5eP/9P0TTZHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallRecordInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.CallRecordInfo.html",
+          "hash": "z/QCMYRNgsM58lQtdT9v7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.EditablePhoneParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.EditablePhoneParameters.html",
+          "hash": "84SAhq0iXB2R3ZYvViyMDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.EditableVtePortParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.EditableVtePortParameters.html",
+          "hash": "DVeaojNo9FfEG23nig1NsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.FileBytesAbstraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.FileBytesAbstraction.html",
+          "hash": "Up1zN2iOEsPmfyzSRBZe5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.GatewayCallAuthentication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.GatewayCallAuthentication.html",
+          "hash": "9+MwtTPXHkCZ4hxSjF0xGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.GatewayRegEnabled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.GatewayRegEnabled.html",
+          "hash": "1jY2PHs65tbHFyY/hUM8xA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.GroupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.GroupType.html",
+          "hash": "Y0YSJNOjchHvcAb5kULcZw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInIvr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInIvr.html",
+          "hash": "uCf0Ud/4DceB1JywetotWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInfo.html",
+          "hash": "b1SmklL4DloU6QHb+2EqvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.NumberHistoryItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.NumberHistoryItem.html",
+          "hash": "P8YXhcHaGhsd6wgFzQCuLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.NumberingPlanState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.NumberingPlanState.html",
+          "hash": "xFkDX8H+IIFdceo113z20A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.PhoneNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.PhoneNumber.html",
+          "hash": "eTbdXDbUmRhlRF1zW4GPpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.PlanningDiscipline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.PlanningDiscipline.html",
+          "hash": "6Mu42aco4n/CgLkuirZklQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.PriorityServicingDiscipline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.PriorityServicingDiscipline.html",
+          "hash": "Ct0iKF08WLiuSzTwAhNXvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.RejectCallByAgentResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.RejectCallByAgentResult.html",
+          "hash": "IcpwEsO/IyAjDDX3hYftXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.RouteCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.RouteCommand.html",
+          "hash": "dirhnqjtju8guYaxmXnBeg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.Vte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.Vte.html",
+          "hash": "5ewP1FZBvPSce7drDpH8gg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VteExternalNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VteExternalNumber.html",
+          "hash": "btoiixvbnd+Mmn/Vexyx9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VteGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VteGroup.html",
+          "hash": "EemVvc30G2lQqAeqYkpKng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VteGroupPortSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VteGroupPortSettings.html",
+          "hash": "hp0TPXygcealfSVi98uo3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VtePort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.VtePort.html",
+          "hash": "Vw7uYX6vsSwRAlWEcqbHgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.WebSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.WebSettings.html",
+          "hash": "82SNtZ9Het3O764YXCBSYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.DataModel.html",
+          "hash": "rWkq3g6MAl/m/fHMGKIkoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.CustomNameAlreadyExistsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.CustomNameAlreadyExistsException.html",
+          "hash": "g84u4lv2cE2gbX7+Io0UXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.GroupNameAlreadyExistsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.GroupNameAlreadyExistsException.html",
+          "hash": "j13/FaDfrU/Htrz1clICCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.IndexNumberAlreadyExistsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.IndexNumberAlreadyExistsException.html",
+          "hash": "P95G1eH77TkPS6kyK/wl6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidEmail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidEmail.html",
+          "hash": "YnDAbgb598IdAkeQFmGVFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidFileFormatException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidFileFormatException.html",
+          "hash": "KIREhzwO2/4spNK/3JqMqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidFileNameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidFileNameException.html",
+          "hash": "BNcdUEDO4zUrVe6+xXwdaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidGroupNameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidGroupNameException.html",
+          "hash": "P4/pcH6e2tmSs5vxRub7SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidIvrName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidIvrName.html",
+          "hash": "tpu4I9f5G1oyw+m7UvH9Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidMem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidMem.html",
+          "hash": "uxAPmOdLXB2/1+393CA7Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidMobilePhone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidMobilePhone.html",
+          "hash": "H9yMRFcV5veREOTtrJOaig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidNumberingPlanState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidNumberingPlanState.html",
+          "hash": "TssWSBjNqkGlM+sJN3YH/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidPasswordException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidPasswordException.html",
+          "hash": "RwZB/tQpp0coTSx2OarhMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidPeriodException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidPeriodException.html",
+          "hash": "5wyZwM82ZMeFrQ492BHLUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidTimeout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidTimeout.html",
+          "hash": "f5pyc/avBU32VyAQ/biP0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidUserName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidUserName.html",
+          "hash": "jOej90QdjeX6LfLVP5oHmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteCustomNameEmpty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteCustomNameEmpty.html",
+          "hash": "Ku+3QE4gFejY3PdUtYDzoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteCustomNameLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteCustomNameLong.html",
+          "hash": "haYGZca+Zs7g6tta2eC6fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteMem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteMem.html",
+          "hash": "fAN1w+IFwXpPQUpr6bYKpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteRisName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.InvalidVteRisName.html",
+          "hash": "ULRW0QLGJ9IqrhTjYm6viQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyAlreadyExistsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyAlreadyExistsException.html",
+          "hash": "EVTKpMBafbU3CYVUltVAXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyNotAllowedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyNotAllowedException.html",
+          "hash": "YKGTsCVuy5/yQnekkTVtiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyNotFoundException.html",
+          "hash": "QDRz9cwa68XR+L5HzNgZxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyUsedInIvrException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.MelodyUsedInIvrException.html",
+          "hash": "5jLBF2mYA+pF6Fu3Yu5VMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.NumberAlreadyExistsOrOutOfRangeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.NumberAlreadyExistsOrOutOfRangeException.html",
+          "hash": "s0loTrdNcw2cMnLP7SsSlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.NumberNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.NumberNotFoundException.html",
+          "hash": "qmVKEB5cCryxEPUoD8aDNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.PhoneNumberNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.PhoneNumberNotFoundException.html",
+          "hash": "aM6vi/p5CRrO8+XCySaZHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.PhoneUserNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.PhoneUserNotFoundException.html",
+          "hash": "ePgraPHX7IJJGaqbLspFOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.RemovalFailedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.RemovalFailedException.html",
+          "hash": "Kxg4YmoJjCDr/o0xmkrylA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.RemoveNotAllowedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.RemoveNotAllowedException.html",
+          "hash": "qQOkmeXH/OFUvvlY7vypAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.RtuException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.RtuException.html",
+          "hash": "BbR5pCkuK7XZVfiUowxaXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.SettingsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.SettingsException.html",
+          "hash": "eXnJCT9pe4e0+Tdwnqbhwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.SipAuthorizationRequiredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.SipAuthorizationRequiredException.html",
+          "hash": "Gl3/dmyvrmo2pn+tK2+AeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.TimeTableCollisionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.TimeTableCollisionException.html",
+          "hash": "I9WDYHrT6/Biu8x3zLYw6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.UserTerminalNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.UserTerminalNotFoundException.html",
+          "hash": "Vwbtai7VDwpQ3nVGQCqktw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VgwPortNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VgwPortNotFoundException.html",
+          "hash": "XUGT9IpX0T9cRHmOQlTQyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VteNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VteNotFoundException.html",
+          "hash": "bnl5llD5bDEOnD/JAhIMtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VtePortGroupNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VtePortGroupNotFoundException.html",
+          "hash": "CqBeHNnns5nvzydk+QXErQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VtePortNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VtePortNotFoundException.html",
+          "hash": "5VPtT+drYqzMtsS9LPE3TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VtePortNotManaged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.VtePortNotManaged.html",
+          "hash": "wK7k+HPQCC/QFNgI0Xk29A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Exceptions.html",
+          "hash": "+iRPjTmjgg5MB6FxVmVaYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.ICallInfoService.html",
+          "hash": "J9p9smRLccY0z/I9Nmow9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IMelodyService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IMelodyService.html",
+          "hash": "sBmlEf/jHQHyxlyRlAq8og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IPhoneNumberService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IPhoneNumberService.html",
+          "hash": "rzUdPI79R4uO1TeKlHlbhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVteExternalNumberService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVteExternalNumberService.html",
+          "hash": "GiX3XyayYPhQwb184OFouA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVteGroupService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVteGroupService.html",
+          "hash": "CSvbFCncHOpVucJGbtChSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVtePortService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVtePortService.html",
+          "hash": "DB3VH9dzRy26RfzbOrdjtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVteService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.IVteService.html",
+          "hash": "SKzk17fViodLI7RvYwnjXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Interface.html",
+          "hash": "LxYPqihKK7VujscZeCku9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteGroups.Repository.NumbersHistoryRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteGroups.Repository.NumbersHistoryRepository.html",
+          "hash": "vqoYfr4EYwt1+IfzNN7Gfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteGroups.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteGroups.Repository.html",
+          "hash": "GO2OoHPR9QeLHm6zZoORZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.CallTransfer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.CallTransfer.html",
+          "hash": "KB4iJgR+K8uMGeDDZAweCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.Ivr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.Ivr.html",
+          "hash": "QbNSsXKPgXd5MmsQs+uiWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrChoiceCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrChoiceCommand.html",
+          "hash": "1HUvvqSszAqiX3UWc1mOvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrCommandBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrCommandBase.html",
+          "hash": "t5zuhUYY+2gSgVcF78dSoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrDefaultCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrDefaultCommand.html",
+          "hash": "X3OJpvbbnucP/Dn8a/YpmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrFailCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.IvrFailCommand.html",
+          "hash": "gfr4wj/3l3wliQZystzCKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RedirectToIvr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RedirectToIvr.html",
+          "hash": "jnrEbwiE+nCyn/K2JWfMyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.Route.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.Route.html",
+          "hash": "5+M4feXxmcTX4X6XVH09Tw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStepBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStepBase.html",
+          "hash": "ZHExVn+x2V+81lVoSlly8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStrategy.html",
+          "hash": "wAgQJQXWYYfpX1uTd8zMMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.html",
+          "hash": "8Ktx5RSYzmrkETMhb1cMGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.CreationFailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.CreationFailed.html",
+          "hash": "uwnOH0Fk4trO7M6DjnHB8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.DuplicateIvrName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.DuplicateIvrName.html",
+          "hash": "EaZh5pNzA29nls33qV4Sow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.ExternalNumberNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.ExternalNumberNotFoundException.html",
+          "hash": "KZW0OjPOhVDXGarx3BaJBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.RemoveNotAllowedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.RemoveNotAllowedException.html",
+          "hash": "40mQJbLNkcDchBWvTbL5UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.RouteNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.RouteNotFoundException.html",
+          "hash": "esbGH3VdSmqF7mQtthwrjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Exceptions.html",
+          "hash": "Va/D9xkxAnNCO/Jx/lgDsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Interface.IRouteService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Interface.IRouteService.html",
+          "hash": "Yo0YnB9KYUx64FSrQSajkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.VteRouting.Interface.html",
+          "hash": "TqiltI38QRXfSbe/0gU2VA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Repository.VteRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Repository.VteRepository.html",
+          "hash": "G4r7qywYcRStQCfyBQw6/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Repository.html",
+          "hash": "hKQU2lZVlMS/HVv2RRJpuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Service.IPasswordService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Service.IPasswordService.html",
+          "hash": "bdJZnNbG1e1sPnx6IjZJCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Service.PasswordService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Service.PasswordService.html",
+          "hash": "MVqhm8QOUus5MGZUmXBluw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Settings.Vtes.Service.html",
+          "hash": "fCsWIu5mAy7l/Fu1Okjubg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.SipClass5AutofacModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.SipClass5AutofacModule.html",
+          "hash": "3+TvZzqY3mX7FevA0xfnMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.Direction.html",
+          "hash": "SWgeH3YQSJwJCTZCFrwDeQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.InternalCallInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.InternalCallInfo.html",
+          "hash": "rsOWDuUXmwyWLS1479ez6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.VoiceDirectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.VoiceDirectionInfo.html",
+          "hash": "h6genWTr/y5Z5OF7JoJYLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.html",
+          "hash": "dKJjqMNOFf/QIpFQLT/ODg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.html",
+          "hash": "RCTruwuIXE+KTu8B74/rUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.html",
+          "hash": "hyQ+VgHAfKYL5r16cHqlmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.IDirectionRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.IDirectionRepository.html",
+          "hash": "4s32bWJkAnWDVjT5nQPHWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.html",
+          "hash": "cic0zaIcUFuXmR9k7bndjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Service.DirectionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Service.DirectionService.html",
+          "hash": "lI5JJ+lEmB6niS/1C1MMTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Service.IDirectionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Service.IDirectionService.html",
+          "hash": "g26wcrPr9gTFcEgQV8Nkmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.CallDirection.Service.html",
+          "hash": "v7TG9Ou2S0Qf4b6harPK9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.DataModel.VoiceDetailingGroupBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.DataModel.VoiceDetailingGroupBy.html",
+          "hash": "0zLNglEP/nIvscxDBFkY1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.DataModel.VoiceDetailingItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.DataModel.VoiceDetailingItem.html",
+          "hash": "SmYQwAw6A5Oz7n1sXRsSHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.DataModel.html",
+          "hash": "iD4Wx5EmQ984njL3Uvi1XQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Exceptions.VoiceDetailingTimeoutException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Exceptions.VoiceDetailingTimeoutException.html",
+          "hash": "W9W+g4goDUtP9g1m0BxrOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Exceptions.html",
+          "hash": "g+H0UWSvr9Hr4ThfDEaJHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Repository.IVoiceDetailingRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Repository.IVoiceDetailingRepository.html",
+          "hash": "CbEj6YOe4B3k9jkRizP+5A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Repository.VoiceDetailingRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Repository.VoiceDetailingRepository.html",
+          "hash": "24svgumXTwKFEMMvARitLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Repository.html",
+          "hash": "zkVDHpyzY0sNmbepTJN0gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Service.IVoiceDetailingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Service.IVoiceDetailingService.html",
+          "hash": "EuIHjpXdZhIxzGyrkf3nCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Service.VoiceDetailingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Service.VoiceDetailingService.html",
+          "hash": "Ovc1bj4eA0fK4BYNXrwgPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.Traffic.Detailing.Service.html",
+          "hash": "R3WpBLccko8q0xF1cSE78Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Core.Sip.Class5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Core.Sip.Class5.html",
+          "hash": "T/RXsOudCaeKo68LqN2M+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Frontline.PAB2B.Modules.Voice.Models.DataModel.HwCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Frontline.PAB2B.Modules.Voice.Models.DataModel.HwCode.html",
+          "hash": "nP6g+EB1LeGusFzwa5N0/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cordis.Frontline.PAB2B.Modules.Voice.Models.DataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cordis.Frontline.PAB2B.Modules.Voice.Models.DataModel.html",
+          "hash": "G+z7OdwYIjs0ePgEiqGRuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Fez2LAJlA/LcxwsSJvD1Lg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "VSYFpzcPuDOTn+NZ2IUUyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "DBXtMHwGaiVF5p07T4QIuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "tQO1DM8dSupldq6BULlBCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 272,
+          "skipped_file_count": 133
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
