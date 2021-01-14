@@ -1,0 +1,778 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IVtePortValidationService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IVtePortValidationService
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService" class="text-break">Interface IVtePortValidationService
+  </h1>
+  <div class="markdown level0 summary"><p>Сервис проверок ВАТС порта.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.html">Cordis.Core.Sip.Class5.Settings.VtePorts.Service</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">interface IVtePortValidationService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateDomainIdAndPhoneNumberIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateDomainIdAndPhoneNumberIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateDomainIdAndPhoneNumberIdAsync_System_Int32_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateDomainIdAndPhoneNumberIdAsync(System.Int32,System.Int32)">ValidateDomainIdAndPhoneNumberIdAsync(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Проверяет принадлежность принадлежность внешнего номера к ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateDomainIdAndPhoneNumberIdAsync(int domainId, int phoneNumberId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">domainId</span></td>
+        <td><p>Идентификатор настроек ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">phoneNumberId</span></td>
+        <td><p>Идентификатор внешнего номера ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateEmail_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateEmail*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateEmail_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateEmail(System.String)">ValidateEmail(String)</h4>
+  <div class="markdown level1 summary"><p>Проверяет формат почтового адреса.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ValidateEmail(string email)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">email</span></td>
+        <td><p>Почтовый адрес.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateExistsNumberAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateExistsNumberAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateExistsNumberAsync_System_Int32_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateExistsNumberAsync(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})">ValidateExistsNumberAsync(Int32, Int32, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет, что номер ещё не занят.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateExistsNumberAsync(int number, int domainId, int? userGroupId = default(int? ), int? userId = default(int? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Номер.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">domainId</span></td>
+        <td><p>Идентификатор настроек ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">userGroupId</span></td>
+        <td><p>Идентификатор текущей группы порта.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор текущего порта.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Exceptions.NumberAlreadyExistsOrOutOfRangeException.html">NumberAlreadyExistsOrOutOfRangeException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateIndexNumberAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateIndexNumberAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateIndexNumberAsync_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateIndexNumberAsync(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})">ValidateIndexNumberAsync(Int32, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет порядковый номер порта ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateIndexNumberAsync(int domainId, int? indexNumber, int? userId = default(int? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">domainId</span></td>
+        <td><p>Идентификатор настроек ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">indexNumber</span></td>
+        <td><p>Порядковый номер порта ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateMem_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateMem*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateMem_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateMem(System.String)">ValidateMem(String)</h4>
+  <div class="markdown level1 summary"><p>Проверяет формат примечания.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ValidateMem(string mem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mem</span></td>
+        <td><p>Примечание.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateMobilePhone_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateMobilePhone*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateMobilePhone_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateMobilePhone(System.String)">ValidateMobilePhone(String)</h4>
+  <div class="markdown level1 summary"><p>Проверяет формат номера телефона.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ValidateMobilePhone(string mobilePhone)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mobilePhone</span></td>
+        <td><p>Номер телефона.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateNumberIsInRange_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateNumberIsInRange*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateNumberIsInRange_System_Int32_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateNumberIsInRange(System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})">ValidateNumberIsInRange(Int32, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет, что номер находится в диапазоне значений (включительно).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ValidateNumberIsInRange(int number, int? from, int? trim)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td><p>Номер.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">from</span></td>
+        <td><p>Начало диапазона.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">trim</span></td>
+        <td><p>Конец диапазона.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Exceptions.NumberAlreadyExistsOrOutOfRangeException.html">NumberAlreadyExistsOrOutOfRangeException</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateSetAllowedSubnetsListParamsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateSetAllowedSubnetsListParamsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateSetAllowedSubnetsListParamsAsync_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateSetAllowedSubnetsListParamsAsync(System.Collections.Generic.IEnumerable{System.Int32})">ValidateSetAllowedSubnetsListParamsAsync(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет параметры метода создания списка разрешенных подсетей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateSetAllowedSubnetsListParamsAsync(IEnumerable&lt;int&gt; vtePortIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">vtePortIds</span></td>
+        <td><p>Идентификаторы портов ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateSetSipPasswordParamsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateSetSipPasswordParamsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateSetSipPasswordParamsAsync_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateSetSipPasswordParamsAsync(System.Int32,System.String)">ValidateSetSipPasswordParamsAsync(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Проверяет параметры метода установки пароля подключения голосового шлюза порта.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateSetSipPasswordParamsAsync(int vtePortId, string password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vtePortId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
+        <td><p>Новый пароль.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateSetVgwPortParamsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateSetVgwPortParamsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateSetVgwPortParamsAsync_System_Int32_System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateSetVgwPortParamsAsync(System.Int32,System.Nullable{System.Int32})">ValidateSetVgwPortParamsAsync(Int32, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет параметры метода привязки терминала порта ВАТС к голосовому порту оборудования.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateSetVgwPortParamsAsync(int vtePortId, int? vgwPortId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vtePortId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">vgwPortId</span></td>
+        <td><p>Идентификатор голосового порта оборудования.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateUserGroupIdsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateUserGroupIdsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateUserGroupIdsAsync_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateUserGroupIdsAsync(System.Int32,System.Collections.Generic.IEnumerable{System.Int32})">ValidateUserGroupIdsAsync(Int32, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет вхождение групп пользователей в ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateUserGroupIdsAsync(int domainId, IEnumerable&lt;int&gt; userGroupIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">domainId</span></td>
+        <td><p>Идентификатор настроек ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">userGroupIds</span></td>
+        <td><p>Идентификаторы групп пользователей.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateUserNameAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateUserNameAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateUserNameAsync_System_Int32_System_String_System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateUserNameAsync(System.Int32,System.String,System.Nullable{System.Int32})">ValidateUserNameAsync(Int32, String, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет формат названия порта ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateUserNameAsync(int domainId, string userName, int? userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">domainId</span></td>
+        <td><p>Идентификатор настроек ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userName</span></td>
+        <td><p>Название порта ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateUserOnDeleteAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateUserOnDeleteAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateUserOnDeleteAsync_System_Int32_System_Boolean_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateUserOnDeleteAsync(System.Int32,System.Boolean)">ValidateUserOnDeleteAsync(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Проверяет возможность удаления порта ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ValidateUserOnDeleteAsync(int userId, bool isCustomerAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isCustomerAction</span></td>
+        <td><p>Действие клиента.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateVteGroupPortSettings_" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateVteGroupPortSettings*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VtePorts_Service_IVtePortValidationService_ValidateVteGroupPortSettings_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Settings_DataModel_VteGroupPortSettings__" data-uid="Cordis.Core.Sip.Class5.Settings.VtePorts.Service.IVtePortValidationService.ValidateVteGroupPortSettings(System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Settings.DataModel.VteGroupPortSettings})">ValidateVteGroupPortSettings(IEnumerable&lt;VteGroupPortSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Проверяет корректность параметров портов ВАТС в разрезе групп.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ValidateVteGroupPortSettings(IEnumerable&lt;VteGroupPortSettings&gt; vteGroupPortSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.VteGroupPortSettings.html">VteGroupPortSettings</a>&gt;</td>
+        <td><span class="parametername">vteGroupPortSettings</span></td>
+        <td><p>Порты ВАТС в разрезе групп.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

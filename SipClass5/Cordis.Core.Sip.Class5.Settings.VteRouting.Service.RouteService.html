@@ -1,0 +1,1041 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class RouteService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class RouteService
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService" class="text-break">Class RouteService
+  </h1>
+  <div class="markdown level0 summary"><p>Сервис управления правилами маршрутизации.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">RouteService</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Interface.IRouteService.html">IRouteService</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.html">Cordis.Core.Sip.Class5.Settings.VteRouting.Service</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">class RouteService : IRouteService</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__ctor_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.#ctor*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__ctor_Cordis_Core_Sip_Class5_Settings_Vtes_Repository_IUserRepository_Cordis_Core_Sip_Class5_Settings_VteRouting_Repository_IAdditionalForwardingRepository_Cordis_Core_Sip_Class5_Settings_VteRouting_Service_IRouteValidationService_Cordis_Core_Sip_Class5_Settings_Vtes_Repository_IVteRepository_Cordis_Core_Sip_Class5_Settings_VteRouting_Service_IIvrScriptService_Cordis_Core_Sip_Class5_Settings_VteRouting_Service_ITimetableService_Cordis_Core_Sip_Class5_Settings_VteRouting_Repository_IPhoneNumberRepository_Cordis_Core_Sip_Class5_Settings_VteRouting_Repository_IRouteRepository_Cordis_Core_Sip_Class5_Settings_VteRouting_Service_IAdditionalForwardingService_Cordis_Core_Sip_Class5_Settings_VteRouting_Service_ITimetableValidationService_Cordis_Core_Sip_Class5_Settings_Repository_IBaseRepository_Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuQueryService_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.#ctor(Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IUserRepository,Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IAdditionalForwardingRepository,Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IRouteValidationService,Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IVteRepository,Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IIvrScriptService,Cordis.Core.Sip.Class5.Settings.VteRouting.Service.ITimetableService,Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IPhoneNumberRepository,Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IRouteRepository,Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IAdditionalForwardingService,Cordis.Core.Sip.Class5.Settings.VteRouting.Service.ITimetableValidationService,Cordis.Core.Sip.Class5.Settings.Repository.IBaseRepository,Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuQueryService)">RouteService(IUserRepository, IAdditionalForwardingRepository, IRouteValidationService, IVteRepository, IIvrScriptService, ITimetableService, IPhoneNumberRepository, IRouteRepository, IAdditionalForwardingService, ITimetableValidationService, IBaseRepository, IRtuQueryService)</h4>
+  <div class="markdown level1 summary"><p>Конструктор.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RouteService(IUserRepository userRepository, IAdditionalForwardingRepository additionalForwardingRepository, IRouteValidationService routeValidationService, IVteRepository vteRepository, IIvrScriptService ivrScriptService, ITimetableService timetableService, IPhoneNumberRepository phoneNumberRepository, IRouteRepository routeRepository, IAdditionalForwardingService additionalForwardingService, ITimetableValidationService timetableValidationService, IBaseRepository baseRepository, IRtuQueryService rtuQueryService)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IUserRepository.html">IUserRepository</a></td>
+        <td><span class="parametername">userRepository</span></td>
+        <td><p>Репозиторий для работы с таблицей RTU.[user].</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IAdditionalForwardingRepository.html">IAdditionalForwardingRepository</a></td>
+        <td><span class="parametername">additionalForwardingRepository</span></td>
+        <td><p>Репозиторий для работы с таблицей RTU.[additional_forwarding].</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IRouteValidationService.html">IRouteValidationService</a></td>
+        <td><span class="parametername">routeValidationService</span></td>
+        <td><p>Сервис для проверок при управлении правилами маршрутизации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IVteRepository.html">IVteRepository</a></td>
+        <td><span class="parametername">vteRepository</span></td>
+        <td><p>Репозиторий методов управления параметрами ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IIvrScriptService.html">IIvrScriptService</a></td>
+        <td><span class="parametername">ivrScriptService</span></td>
+        <td><p>Сервис для работы с правилами маршрутизации голосового меню.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.ITimetableService.html">ITimetableService</a></td>
+        <td><span class="parametername">timetableService</span></td>
+        <td><p>Сервис для работы с расписанием.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IPhoneNumberRepository.html">IPhoneNumberRepository</a></td>
+        <td><span class="parametername">phoneNumberRepository</span></td>
+        <td><p>Репозиторий для работы с таблицей Voice.[phone_number].</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IRouteRepository.html">IRouteRepository</a></td>
+        <td><span class="parametername">routeRepository</span></td>
+        <td><p>Репозиторий для управления правилами маршрутизации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IAdditionalForwardingService.html">IAdditionalForwardingService</a></td>
+        <td><span class="parametername">additionalForwardingService</span></td>
+        <td><p>Сервис управления маршрутизацией.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.ITimetableValidationService.html">ITimetableValidationService</a></td>
+        <td><span class="parametername">timetableValidationService</span></td>
+        <td><p>Сервис валидации расписаний.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Repository.IBaseRepository.html">IBaseRepository</a></td>
+        <td><span class="parametername">baseRepository</span></td>
+        <td><p>Базовый репозиторий для работы с таблицей в БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuQueryService.html">IRtuQueryService</a></td>
+        <td><span class="parametername">rtuQueryService</span></td>
+        <td><p>Серивис для работы с запросами к РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__additionalForwardingRepository" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._additionalForwardingRepository">_additionalForwardingRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий для работы с таблицей RTU.[additional_forwarding].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAdditionalForwardingRepository _additionalForwardingRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IAdditionalForwardingRepository.html">IAdditionalForwardingRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__additionalForwardingService" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._additionalForwardingService">_additionalForwardingService</h4>
+  <div class="markdown level1 summary"><p>Сервис управления маршрутизацией.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAdditionalForwardingService _additionalForwardingService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IAdditionalForwardingService.html">IAdditionalForwardingService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__baseRepository" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._baseRepository">_baseRepository</h4>
+  <div class="markdown level1 summary"><p>Базовый репозиторий для работы с таблицей в БД.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBaseRepository _baseRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Repository.IBaseRepository.html">IBaseRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__ivrScriptService" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._ivrScriptService">_ivrScriptService</h4>
+  <div class="markdown level1 summary"><p>Сервис для работы с правилами маршрутизации голосового меню.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IIvrScriptService _ivrScriptService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IIvrScriptService.html">IIvrScriptService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__phoneNumberRepository" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._phoneNumberRepository">_phoneNumberRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий для работы с таблицей Voice.[phone_number].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPhoneNumberRepository _phoneNumberRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IPhoneNumberRepository.html">IPhoneNumberRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__routeRepository" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._routeRepository">_routeRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий для управления правилами маршрутизации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRouteRepository _routeRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Repository.IRouteRepository.html">IRouteRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__routeValidationService" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._routeValidationService">_routeValidationService</h4>
+  <div class="markdown level1 summary"><p>Сервис для проверок при управлении правилами маршрутизации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRouteValidationService _routeValidationService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.IRouteValidationService.html">IRouteValidationService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__rtuQueryService" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._rtuQueryService">_rtuQueryService</h4>
+  <div class="markdown level1 summary"><p>Серивис для работы с запросами к РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRtuQueryService _rtuQueryService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuQueryService.html">IRtuQueryService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__timetableService" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._timetableService">_timetableService</h4>
+  <div class="markdown level1 summary"><p>Сервис для работы с расписанием.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITimetableService _timetableService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.ITimetableService.html">ITimetableService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__timetableValidationService" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._timetableValidationService">_timetableValidationService</h4>
+  <div class="markdown level1 summary"><p>Сервис валидации расписаний.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITimetableValidationService _timetableValidationService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.ITimetableValidationService.html">ITimetableValidationService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__userRepository" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._userRepository">_userRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий для работы с таблицей RTU.[user].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IUserRepository _userRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IUserRepository.html">IUserRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService__vteRepository" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService._vteRepository">_vteRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий методов управления параметрами ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IVteRepository _vteRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IVteRepository.html">IVteRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_DEFAULT_TIMEOUT_CONNECTION" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.DEFAULT_TIMEOUT_CONNECTION">DEFAULT_TIMEOUT_CONNECTION</h4>
+  <div class="markdown level1 summary"><p>Время ожидания в секундах при дозвоне по умолчанию.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DEFAULT_TIMEOUT_CONNECTION = 10</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_CheckTimetableCover_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.CheckTimetableCover*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_CheckTimetableCover_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.CheckTimetableCover(System.Int32)">CheckTimetableCover(Int32)</h4>
+  <div class="markdown level1 summary"><p>Проверяет, что правила маршрутизации покрывают всю неделю.
+При отсутствии покрытия, создает дополнительное правило маршрутизации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;List&lt;(int additionalForwardingId, string routeStrategy)&gt;&gt; CheckTimetableCover(int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.String</span>&gt;&gt;&gt;</td>
+        <td><p>Список (Идентификатор правила маршрутизации, Стратегия маршрутизации).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_CreateAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.CreateAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_CreateAsync_System_Int32_Cordis_Core_Sip_Class5_Settings_VteRouting_DataModel_RouteStepBase_Cordis_Core_Sip_Class5_Forwarding_DataModel_TimetableSetting_System_Boolean_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.CreateAsync(System.Int32,Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStepBase,Cordis.Core.Sip.Class5.Forwarding.DataModel.TimetableSetting,System.Boolean)">CreateAsync(Int32, RouteStepBase, TimetableSetting, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Создает новое правило маршрутизации для указанного внешнего номера.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; CreateAsync(int externalNumberId, RouteStepBase startStep, TimetableSetting timetableSettings, bool isPermanent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">externalNumberId</span></td>
+        <td><p>Идентификатор внешнего номера.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStepBase.html">RouteStepBase</a></td>
+        <td><span class="parametername">startStep</span></td>
+        <td><p>Первый шаг правила маршрутизации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.TimetableSetting.html">TimetableSetting</a></td>
+        <td><span class="parametername">timetableSettings</span></td>
+        <td><p>Расписание правила маршрутизации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPermanent</span></td>
+        <td><p>Флаг показывает, что требуется сохранить правило маршрутизации как действующее всегда.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_DeleteAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.DeleteAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_DeleteAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.DeleteAsync(System.Int32)">DeleteAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Удаляет параметры правила маршрутизации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(int additionalForwardingId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">additionalForwardingId</span></td>
+        <td><p>Идентификатор правила маршрутизации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_FindByVatsAndDestinationAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.FindByVatsAndDestinationAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_FindByVatsAndDestinationAsync_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.FindByVatsAndDestinationAsync(System.Int32,System.String)">FindByVatsAndDestinationAsync(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Находит в указанной ВАТС все правила, описывающие переадресацию на указанный номер.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Route&gt;&gt; FindByVatsAndDestinationAsync(int vteId, string destinationNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор настроек ВАТС в таблице RTU.domain.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destinationNumber</span></td>
+        <td><p>Номер телефона на который переводится вызов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.Route.html">Route</a>&gt;&gt;</td>
+        <td><p>Возвращает все правила в указанной ВАТС, описывающие переадресацию на указанный номер.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_FixFollowMeScriptAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.FixFollowMeScriptAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_FixFollowMeScriptAsync_System_String_System_String_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.FixFollowMeScriptAsync(System.String,System.String,System.String)">FixFollowMeScriptAsync(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Корректирует идентификатор скрипта для сценария FollowMe.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; FixFollowMeScriptAsync(string rtuUserId, string rtuDomainId, string scriptName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rtuUserId</span></td>
+        <td><p>Идентификатор пользователя в РТУ.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rtuDomainId</span></td>
+        <td><p>Идентификатор домена в РТУ.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scriptName</span></td>
+        <td><p>Название скрипта.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>Признак успешности корректировки.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_GetByExternalNumberIdsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.GetByExternalNumberIdsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_GetByExternalNumberIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.GetByExternalNumberIdsAsync(System.Collections.Generic.IEnumerable{System.Int32})">GetByExternalNumberIdsAsync(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Возвращает список правил маршрутизации из таблицы RTU.additional_forwarding для виртуального порта ВАТС (RTU.user) соответствующего указанным внешним номерам.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Dictionary&lt;int, IEnumerable&lt;Route&gt;&gt;&gt; GetByExternalNumberIdsAsync(IEnumerable&lt;int&gt; externalNumberIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">externalNumberIds</span></td>
+        <td><p>Идентификатор внешнего номера.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.Route.html">Route</a>&gt;&gt;&gt;</td>
+        <td><p>Список правил маршрутизации, созданных для указанного внешнего номера.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_GetByIdsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.GetByIdsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_GetByIdsAsync_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.GetByIdsAsync(System.Collections.Generic.IEnumerable{System.Int32})">GetByIdsAsync(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Возвращает список правил маршрутизации, созданных для указанного внешнего номера.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Route&gt;&gt; GetByIdsAsync(IEnumerable&lt;int&gt; ids)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">ids</span></td>
+        <td><p>Идентификаторы правил маршрутизации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.Route.html">Route</a>&gt;&gt;</td>
+        <td><p>Список правил маршрутизации, созданных для указанного внешнего номера.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_GetMaxPriorityForDomainAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.GetMaxPriorityForDomainAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_GetMaxPriorityForDomainAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.GetMaxPriorityForDomainAsync(System.Int32)">GetMaxPriorityForDomainAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает макисмальное значение поля 'priority' для записей с указанной ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;int&gt; GetMaxPriorityForDomainAsync(int domainId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">domainId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Макисмальное значение поля 'priority'.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_UpdateAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.UpdateAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_VteRouting_Service_RouteService_UpdateAsync_System_Int32_Cordis_Core_Sip_Class5_Settings_VteRouting_DataModel_RouteStepBase_Cordis_Core_Sip_Class5_Forwarding_DataModel_TimetableSetting_System_Boolean_" data-uid="Cordis.Core.Sip.Class5.Settings.VteRouting.Service.RouteService.UpdateAsync(System.Int32,Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStepBase,Cordis.Core.Sip.Class5.Forwarding.DataModel.TimetableSetting,System.Boolean)">UpdateAsync(Int32, RouteStepBase, TimetableSetting, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Редактирует параметры правила маршрутизации в соответствии.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UpdateAsync(int additionalForwardingId, RouteStepBase startStep, TimetableSetting timetable, bool isPermanent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">additionalForwardingId</span></td>
+        <td><p>Идентификатор правила маршрутизации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.DataModel.RouteStepBase.html">RouteStepBase</a></td>
+        <td><span class="parametername">startStep</span></td>
+        <td><p>Первый шаг правила маршрутизации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.TimetableSetting.html">TimetableSetting</a></td>
+        <td><span class="parametername">timetable</span></td>
+        <td><p>Расписание правила маршрутизации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isPermanent</span></td>
+        <td><p>Флаг показывает, что требуется сохранить правило маршрутизации как действующее всегда.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Cordis.Core.Sip.Class5.Settings.VteRouting.Interface.IRouteService.html">IRouteService</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

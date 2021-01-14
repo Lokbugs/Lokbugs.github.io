@@ -1,0 +1,1055 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IForwardingRepository
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IForwardingRepository
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository" class="text-break">Interface IForwardingRepository
+  </h1>
+  <div class="markdown level0 summary"><p>Репозиторий для работы с переадресацией.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.Repository.html">Cordis.Core.Sip.Class5.Forwarding.Repository</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">interface IForwardingRepository</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_CreateAdditionalForwarding_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.CreateAdditionalForwarding*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_CreateAdditionalForwarding_Cordis_Core_Sip_Class5_Forwarding_DataModel_ForwardingSettings_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.CreateAdditionalForwarding(Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings,System.Int32)">CreateAdditionalForwarding(ForwardingSettings, Int32)</h4>
+  <div class="markdown level1 summary"><p>Добавляет настройки переадресации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int CreateAdditionalForwarding(ForwardingSettings forwardingSettings, int timeTableId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a></td>
+        <td><span class="parametername">forwardingSettings</span></td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeTableId</span></td>
+        <td><p>Идентификатор расписания.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Идентификатор созданной настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_CreateTimeTable_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.CreateTimeTable*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_CreateTimeTable" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.CreateTimeTable">CreateTimeTable()</h4>
+  <div class="markdown level1 summary"><p>Добавляет запись в таблицу RTU.timetable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int CreateTimeTable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Идентификатор созданного расписания.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_CreateTimeTableWeekDay_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.CreateTimeTableWeekDay*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_CreateTimeTableWeekDay_Cordis_Core_Sip_Class5_Forwarding_DataModel_ForwardingSettings_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.CreateTimeTableWeekDay(Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings,System.Int32)">CreateTimeTableWeekDay(ForwardingSettings, Int32)</h4>
+  <div class="markdown level1 summary"><p>Добавляет настройки действия расписания для дней недели.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CreateTimeTableWeekDay(ForwardingSettings forwardingSettings, int timeTableId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a></td>
+        <td><span class="parametername">forwardingSettings</span></td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeTableId</span></td>
+        <td><p>Идентификатор расписания.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteAdditionalForwardingById_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteAdditionalForwardingById*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteAdditionalForwardingById_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteAdditionalForwardingById(System.Int32)">DeleteAdditionalForwardingById(Int32)</h4>
+  <div class="markdown level1 summary"><p>Удаляет правило переадресации по его идентификатору.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteAdditionalForwardingById(int additionalForwardingId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">additionalForwardingId</span></td>
+        <td><p>Идентификатор настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteAllAdditionalForwardingsByTimeTableId_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteAllAdditionalForwardingsByTimeTableId*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteAllAdditionalForwardingsByTimeTableId_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteAllAdditionalForwardingsByTimeTableId(System.Int32)">DeleteAllAdditionalForwardingsByTimeTableId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Удаляет ВСЕ правила переадресации с указанными идентификатором расписания.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteAllAdditionalForwardingsByTimeTableId(int timeTableId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeTableId</span></td>
+        <td><p>Идентификатор настроек расписания.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteForwardingStatus_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteForwardingStatus*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteForwardingStatus_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteForwardingStatus(System.Int32)">DeleteForwardingStatus(Int32)</h4>
+  <div class="markdown level1 summary"><p>Удаляет запись из Voice.opensips_phone_forwarding_status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteForwardingStatus(int additionalForwardingId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">additionalForwardingId</span></td>
+        <td><p>Идентификатор настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteTimeTableById_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteTimeTableById*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteTimeTableById_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteTimeTableById(System.Int32)">DeleteTimeTableById(Int32)</h4>
+  <div class="markdown level1 summary"><p>Удаляет настройки расписания.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteTimeTableById(int timeTableId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeTableId</span></td>
+        <td><p>Идентификатор настроек расписания.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteTimeTableWeekDay_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteTimeTableWeekDay*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_DeleteTimeTableWeekDay_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.DeleteTimeTableWeekDay(System.Int32)">DeleteTimeTableWeekDay(Int32)</h4>
+  <div class="markdown level1 summary"><p>Удаляет настройки расписания для дней недели переданного расписания.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteTimeTableWeekDay(int timeTableId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">timeTableId</span></td>
+        <td><p>Идентификатор настроек расписания.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetAll_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetAll*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetAll" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetAll">GetAll()</h4>
+  <div class="markdown level1 summary"><p>Возвращает все настройки переадресации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ForwardingSettings&gt; GetAll()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByContract_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByContract*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByContract_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByContract(System.Int32)">GetByContract(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает настройки переадресации для всех ресурсов Телефонный номер или ВАТС связанных с договором на текущий момент из таблицы RTU.additional_forwarding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ForwardingSettings&gt; GetByContract(int contract_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_id</span></td>
+        <td><p>Идентификатор договора.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByPhoneNumber_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByPhoneNumber*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByPhoneNumber_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByPhoneNumber(System.Int32)">GetByPhoneNumber(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает настройки переадресации по идентификатору телефонного номера.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ForwardingSettings&gt; GetByPhoneNumber(int phone_number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">phone_number</span></td>
+        <td><p>Идентификатор телефонного номера.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByUserId_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByUserId*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByUserId_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByUserId(System.Int32)">GetByUserId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает настройки переадресации по идентификатору порта ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ForwardingSettings&gt; GetByUserId(int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор порта ВАТС (rtu.user).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByUserIdAsync_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByUserIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByUserIdAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByUserIdAsync(System.Int32)">GetByUserIdAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает настройки переадресации по идентификатору порта ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;ForwardingSettings&gt;&gt; GetByUserIdAsync(int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор порта ВАТС (rtu.user).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByVatsAndDestination_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByVatsAndDestination*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByVatsAndDestination_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByVatsAndDestination(System.Int32,System.String)">GetByVatsAndDestination(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Возвращает настройки для ВАТС, описывающие переадресацию на номер.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ForwardingSettings&gt; GetByVatsAndDestination(int vteId, string destinationNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destinationNumber</span></td>
+        <td><p>Номер.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByVatsAndDestinationAsync_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByVatsAndDestinationAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByVatsAndDestinationAsync_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByVatsAndDestinationAsync(System.Int32,System.String)">GetByVatsAndDestinationAsync(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Возвращает настройки для ВАТС, описывающие переадресацию на номер.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;ForwardingSettings&gt;&gt; GetByVatsAndDestinationAsync(int vteId, string destinationNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">destinationNumber</span></td>
+        <td><p>Номер.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByVteId_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByVteId*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetByVteId_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetByVteId(System.Int32)">GetByVteId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает настройки переадресации по идентификатору ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;ForwardingSettings&gt; GetByVteId(int vte_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vte_id</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a>&gt;</td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetForwardingIdCopyIdPairs_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetForwardingIdCopyIdPairs*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetForwardingIdCopyIdPairs_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetForwardingIdCopyIdPairs(System.Collections.Generic.IEnumerable{System.Int32})">GetForwardingIdCopyIdPairs(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Возвращает пары идентификатор правила - индетификатор копии правила.
+Копия - правило переадресации типа &quot;Unreachable&quot;. Создается для правил переадресации
+типа &quot;Busy&quot;, &quot;NoAnswer&quot; для портов ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;(int, int)&gt; GetForwardingIdCopyIdPairs(IEnumerable&lt;int&gt; additionalForwardingIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">additionalForwardingIds</span></td>
+        <td><p>Идентификаторы правил переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><p>Пары идентификатор правила - индетификатор копии правила.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetPhoneNumberSimId_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetPhoneNumberSimId*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetPhoneNumberSimId_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetPhoneNumberSimId(System.Int32)">GetPhoneNumberSimId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает идентификатор ресурса телефонный номер для настроки переадресации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int? GetPhoneNumberSimId(int additional_forwarding_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">additional_forwarding_id</span></td>
+        <td><p>Идентификатор настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Идентификатор ресурса телефонный номер.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetTimetableIdsByAdditionalForwardingIds_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetTimetableIdsByAdditionalForwardingIds*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetTimetableIdsByAdditionalForwardingIds_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetTimetableIdsByAdditionalForwardingIds(System.Collections.Generic.IEnumerable{System.Int32})">GetTimetableIdsByAdditionalForwardingIds(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Получает идентификаторы расписаний по идентификаторам правил переадресации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;int&gt; GetTimetableIdsByAdditionalForwardingIds(IEnumerable&lt;int&gt; additionalForwardingIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">additionalForwardingIds</span></td>
+        <td><p>Идентификаторы правил переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Идентификаторы расписаний.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetVteSimId_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetVteSimId*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_GetVteSimId_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.GetVteSimId(System.Int32)">GetVteSimId(Int32)</h4>
+  <div class="markdown level1 summary"><p>Возвращает идентификатор ресурса ВАТС для настроки переадресации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int? GetVteSimId(int additional_forwarding_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">additional_forwarding_id</span></td>
+        <td><p>Идентификатор настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Идентификатор ресурса ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_IsUserIdBelongsToPort_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.IsUserIdBelongsToPort*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_IsUserIdBelongsToPort_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.IsUserIdBelongsToPort(System.Int32)">IsUserIdBelongsToPort(Int32)</h4>
+  <div class="markdown level1 summary"><p>Проверяет является ли абонент портом ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsUserIdBelongsToPort(int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор абонента.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Признак является ли абонент портом ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_Log_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.Log*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_Log_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.Log(System.Int32,System.String)">Log(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Добавляет запись в Logs.rtu_additional_forwarding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Log(int additional_forwarding, string xml_settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">additional_forwarding</span></td>
+        <td><p>Идентификатор настройки переадресации.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">xml_settings</span></td>
+        <td><p>Настройки.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_UpdateAdditionalForwarding_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.UpdateAdditionalForwarding*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_UpdateAdditionalForwarding_Cordis_Core_Sip_Class5_Forwarding_DataModel_ForwardingSettings_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.UpdateAdditionalForwarding(Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings)">UpdateAdditionalForwarding(ForwardingSettings)</h4>
+  <div class="markdown level1 summary"><p>Обновляет настройки переадресации в таблице RTU.additional_forwarding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateAdditionalForwarding(ForwardingSettings forwarding_settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a></td>
+        <td><span class="parametername">forwarding_settings</span></td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_UpdateTimeTable_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.UpdateTimeTable*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Forwarding_Repository_IForwardingRepository_UpdateTimeTable_Cordis_Core_Sip_Class5_Forwarding_DataModel_ForwardingSettings_" data-uid="Cordis.Core.Sip.Class5.Forwarding.Repository.IForwardingRepository.UpdateTimeTable(Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings)">UpdateTimeTable(ForwardingSettings)</h4>
+  <div class="markdown level1 summary"><p>Обновляет настройки расписания правила переадресации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateTimeTable(ForwardingSettings forwarding_settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Forwarding.DataModel.ForwardingSettings.html">ForwardingSettings</a></td>
+        <td><span class="parametername">forwarding_settings</span></td>
+        <td><p>Настройки переадресации.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

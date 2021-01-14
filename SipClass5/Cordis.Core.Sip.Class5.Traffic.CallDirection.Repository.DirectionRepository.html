@@ -1,0 +1,756 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DirectionRepository
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DirectionRepository
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository" class="text-break">Class DirectionRepository
+  </h1>
+  <div class="markdown level0 summary"><p>Репозиторий направлений телефонных вызовов.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DirectionRepository</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.IDirectionRepository.html">IDirectionRepository</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.html">Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DirectionRepository : IDirectionRepository</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository__ctor_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.#ctor*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository__ctor_Cordis_Core_DataProvider_MsSql_Interface_ISqlService_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.#ctor(Cordis.Core.DataProvider.MsSql.Interface.ISqlService)">DirectionRepository(ISqlService)</h4>
+  <div class="markdown level1 summary"><p>Инициализирует поля.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DirectionRepository(ISqlService sql_service)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Cordis.Core.DataProvider.MsSql.Interface.ISqlService</span></td>
+        <td><span class="parametername">sql_service</span></td>
+        <td><p>Сервис для работы с SQL-соединениями.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository__sqlService" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository._sqlService">_sqlService</h4>
+  <div class="markdown level1 summary"><p>Сервис для работы с SQL-соединениями.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">readonly ISqlService _sqlService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Cordis.Core.DataProvider.MsSql.Interface.ISqlService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetCallPriceAsync_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetCallPriceAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetCallPriceAsync_System_String_System_String_System_Int32_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetCallPriceAsync(System.String,System.String,System.Int32,System.Int32)">GetCallPriceAsync(String, String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Получение стоимости звонка.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;decimal?&gt; GetCallPriceAsync(string phone_from, string phone_to, int contract_type, int tariff_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">phone_from</span></td>
+        <td><p>Телефон абонента с которого звонят.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">phone_to</span></td>
+        <td><p>Телефон на который производится звонок.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_type</span></td>
+        <td><p>Тип договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tariff_id</span></td>
+        <td><p>Идентификатор продукта.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;&gt;</td>
+        <td><p>Стоимость звонка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetDirections_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetDirections*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetDirections_System_String_Cordis_Core_Sip_Class5_Traffic_CallDirection_DataModel_ZoneClassCode_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetDirections(System.String,Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode)">GetDirections(String, ZoneClassCode)</h4>
+  <div class="markdown level1 summary"><p>Возвращает перечисление направлений для звонков.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Direction&gt; GetDirections(string query, ZoneClassCode zone_class_code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">query</span></td>
+        <td><p>Начало названия направления.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.html">ZoneClassCode</a></td>
+        <td><span class="parametername">zone_class_code</span></td>
+        <td><p>Код категории номерного пространства.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.Direction.html">Direction</a>&gt;</td>
+        <td><p>Перечисление направлений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetDirectionsAsync_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetDirectionsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetDirectionsAsync_System_String_Cordis_Core_Sip_Class5_Traffic_CallDirection_DataModel_ZoneClassCode_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetDirectionsAsync(System.String,Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode)">GetDirectionsAsync(String, ZoneClassCode)</h4>
+  <div class="markdown level1 summary"><p>Возвращает перечисление направлений для звонков.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;Direction&gt;&gt; GetDirectionsAsync(string query, ZoneClassCode zone_class_code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">query</span></td>
+        <td><p>Начало названия направления.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.html">ZoneClassCode</a></td>
+        <td><span class="parametername">zone_class_code</span></td>
+        <td><p>Код категории номерного пространства.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.Direction.html">Direction</a>&gt;&gt;</td>
+        <td><p>Перечисление направлений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetInternalCallPriceAsync_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetInternalCallPriceAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetInternalCallPriceAsync_System_Int32_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetInternalCallPriceAsync(System.Int32,System.Int32)">GetInternalCallPriceAsync(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Получение стоимости Местных Телефонных Вызовов.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;InternalCallInfo&gt; GetInternalCallPriceAsync(int contract_type, int tariff_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_type</span></td>
+        <td><p>Тип договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tariff_id</span></td>
+        <td><p>Идентификатор продукта.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.InternalCallInfo.html">InternalCallInfo</a>&gt;</td>
+        <td><p>Строка с наименованием и ценой.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetPrices_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetPrices*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetPrices_System_Int32_Cordis_Core_Sip_Class5_Traffic_CallDirection_DataModel_ZoneClassCode_System_String_System_Int32_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetPrices(System.Int32,Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode,System.String,System.Int32,System.Int32,System.String)">GetPrices(Int32, ZoneClassCode, String, Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Возвращает информацию по направлениям звонков, включая стоимость.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public IEnumerable&lt;VoiceDirectionInfo&gt; GetPrices(int contract_id, ZoneClassCode zone_class_code, string direction_name, int tariff_id, int contract_type_id, string direction_name_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_id</span></td>
+        <td><p>Идентификатор договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.html">ZoneClassCode</a></td>
+        <td><span class="parametername">zone_class_code</span></td>
+        <td><p>Код категории номерного пространства.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">direction_name</span></td>
+        <td><p>Название направления. Допустимо указание кода города.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tariff_id</span></td>
+        <td><p>Идентификатор продукта.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_type_id</span></td>
+        <td><p>Идентификатор типа договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">direction_name_type</span></td>
+        <td><p>Тип названия направления.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.VoiceDirectionInfo.html">VoiceDirectionInfo</a>&gt;</td>
+        <td><p>Информация по направлениям звонков</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetPricesAsync_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetPricesAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetPricesAsync_System_Int32_Cordis_Core_Sip_Class5_Traffic_CallDirection_DataModel_ZoneClassCode_System_String_System_Int32_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetPricesAsync(System.Int32,Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode,System.String,System.Int32,System.Int32,System.String)">GetPricesAsync(Int32, ZoneClassCode, String, Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Возвращает информацию по направлениям звонков, включая стоимость.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;VoiceDirectionInfo&gt;&gt; GetPricesAsync(int contract_id, ZoneClassCode zone_class_code, string direction_name, int tariff_id, int contract_type_id, string direction_name_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_id</span></td>
+        <td><p>Идентификатор договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.html">ZoneClassCode</a></td>
+        <td><span class="parametername">zone_class_code</span></td>
+        <td><p>Код категории номерного пространства.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">direction_name</span></td>
+        <td><p>Название направления. Допустимо указание кода города.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tariff_id</span></td>
+        <td><p>Идентификатор продукта.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_type_id</span></td>
+        <td><p>Идентификатор типа договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">direction_name_type</span></td>
+        <td><p>Тип названия направления.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.VoiceDirectionInfo.html">VoiceDirectionInfo</a>&gt;&gt;</td>
+        <td><p>Информация по направлениям звонков</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetPricesByDataTable_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetPricesByDataTable*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetPricesByDataTable_System_Data_DataTable_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetPricesByDataTable(System.Data.DataTable)">GetPricesByDataTable(DataTable)</h4>
+  <div class="markdown level1 summary"><p>Возвращает информацию по направлениям звонков по таблице с данными.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;VoiceDirectionInfo&gt; GetPricesByDataTable(DataTable data_table)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">data_table</span></td>
+        <td><p>Таблица с данными.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.VoiceDirectionInfo.html">VoiceDirectionInfo</a>&gt;</td>
+        <td><p>Информация по направлениям звонков</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetQueryAndParamsForDirections_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetQueryAndParamsForDirections*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetQueryAndParamsForDirections_System_String_Cordis_Core_Sip_Class5_Traffic_CallDirection_DataModel_ZoneClassCode_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetQueryAndParamsForDirections(System.String,Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode)">GetQueryAndParamsForDirections(String, ZoneClassCode)</h4>
+  <div class="markdown level1 summary"><p>Возвращает запрос к БД и параметры к нему для получения перечисления направлений для звонков.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">(string, object) GetQueryAndParamsForDirections(string query, ZoneClassCode zone_class_code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">query</span></td>
+        <td><p>Начало названия направления.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.html">ZoneClassCode</a></td>
+        <td><span class="parametername">zone_class_code</span></td>
+        <td><p>Код категории номерного пространства.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><p>Запрос и параметры к нему для получения перечисления направлений для звонков.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetSqlCommandForPrices_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetSqlCommandForPrices*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Traffic_CallDirection_Repository_DirectionRepository_GetSqlCommandForPrices_System_Int32_Cordis_Core_Sip_Class5_Traffic_CallDirection_DataModel_ZoneClassCode_System_String_System_Int32_System_Int32_System_String_" data-uid="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.DirectionRepository.GetSqlCommandForPrices(System.Int32,Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode,System.String,System.Int32,System.Int32,System.String)">GetSqlCommandForPrices(Int32, ZoneClassCode, String, Int32, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Возвращает SQL-команду для получения информации по направлениям звонков.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">SqlCommand GetSqlCommandForPrices(int contract_id, ZoneClassCode zone_class_code, string direction_name, int tariff_id, int contract_type_id, string direction_name_type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_id</span></td>
+        <td><p>Идентификатор договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.DataModel.ZoneClassCode.html">ZoneClassCode</a></td>
+        <td><span class="parametername">zone_class_code</span></td>
+        <td><p>Код категории номерного пространства.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">direction_name</span></td>
+        <td><p>Название направления. Допустимо указание кода города.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">tariff_id</span></td>
+        <td><p>Идентификатор продукта.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">contract_type_id</span></td>
+        <td><p>Идентификатор типа договора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">direction_name_type</span></td>
+        <td><p>Тип названия направления.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.SqlClient.SqlCommand</span></td>
+        <td><p>SQL-команда для получения информации по направлениям звонков.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Cordis.Core.Sip.Class5.Traffic.CallDirection.Repository.IDirectionRepository.html">IDirectionRepository</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

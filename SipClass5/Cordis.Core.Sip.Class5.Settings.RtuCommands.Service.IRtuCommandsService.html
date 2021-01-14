@@ -1,0 +1,649 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IRtuCommandsService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IRtuCommandsService
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService" class="text-break">Interface IRtuCommandsService
+  </h1>
+  <div class="markdown level0 summary"><p>Интерфейс сервиса для формирования и обработки команд РТУ.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.html">Cordis.Core.Sip.Class5.Settings.RtuCommands.Service</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">interface IRtuCommandsService</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_AddAuthInfoToRtuAdditionalServiceCommand_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.AddAuthInfoToRtuAdditionalServiceCommand*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_AddAuthInfoToRtuAdditionalServiceCommand_System_String_System_String_System_String_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.AddAuthInfoToRtuAdditionalServiceCommand(System.String,System.String,System.String,System.String)">AddAuthInfoToRtuAdditionalServiceCommand(String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Добавляет в РТУ команду информацию об авторизации для заданного домена..</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string AddAuthInfoToRtuAdditionalServiceCommand(string login, string pass, string domainTag, string command)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">login</span></td>
+        <td><p>Логин.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pass</span></td>
+        <td><p>Пароль.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">domainTag</span></td>
+        <td><p>Информация о домене.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">command</span></td>
+        <td><p>Команда, которую нужно отправить на РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Команда с информацией об авторизации для отправки на РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_AddAuthInfoToRtuCommand_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.AddAuthInfoToRtuCommand*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_AddAuthInfoToRtuCommand_System_String_System_String_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.AddAuthInfoToRtuCommand(System.String,System.String,System.String)">AddAuthInfoToRtuCommand(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Добавляет в РТУ команду информацию об авторизации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string AddAuthInfoToRtuCommand(string login, string pass, string command)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">login</span></td>
+        <td><p>Логин.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pass</span></td>
+        <td><p>Пароль.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">command</span></td>
+        <td><p>Команда, которую нужно отправить на РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Команда с информацией об авторизации для отправки на РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_CreateGetMelodyCommand_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.CreateGetMelodyCommand*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_CreateGetMelodyCommand_System_String_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.CreateGetMelodyCommand(System.String,System.String)">CreateGetMelodyCommand(String, String)</h4>
+  <div class="markdown level1 summary"><p>Создает команду на получение мелодии.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string CreateGetMelodyCommand(string name, string category)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Название мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">category</span></td>
+        <td><p>Название категории мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Команда на получение мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_CreateRtuCommand_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.CreateRtuCommand*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_CreateRtuCommand_System_String_System_String_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.CreateRtuCommand(System.String,System.String,System.String)">CreateRtuCommand(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Создает команду с информацией об авторизации для отправки на РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string CreateRtuCommand(string login, string pass, string command)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">login</span></td>
+        <td><p>Логин.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pass</span></td>
+        <td><p>Пароль.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">command</span></td>
+        <td><p>Команда, которую нужно отправить на РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Команда с информацией об авторизации для отправки на РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_FormTableCommand_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.FormTableCommand*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_FormTableCommand_Cordis_Core_Sip_Class5_Rtu_Model_RTU_RtuCommandType_System_String_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.FormTableCommand(Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuCommandType,System.String,System.String)">FormTableCommand(RtuCommandType, String, String)</h4>
+  <div class="markdown level1 summary"><p>Формирует команду к таблице на РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string FormTableCommand(RtuCommandType type, string table, string subquery)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.RtuCommandType.html">RtuCommandType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Тип команды.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">table</span></td>
+        <td><p>Название таблицы, к которой формируется команда.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subquery</span></td>
+        <td><p>Подзапрос со списком параметров.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Команда к таблице на РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_GetEntitiesFromRtuResponse_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.GetEntitiesFromRtuResponse*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_GetEntitiesFromRtuResponse__1_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.GetEntitiesFromRtuResponse``1(System.String)">GetEntitiesFromRtuResponse&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Получает из ответа от РТУ список объектов.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;T&gt; GetEntitiesFromRtuResponse&lt;T&gt;(string response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Ответ от РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p>Список объектов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип объекта.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_GetFileUrlFromResponse_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.GetFileUrlFromResponse*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_GetFileUrlFromResponse_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.GetFileUrlFromResponse(System.String)">GetFileUrlFromResponse(String)</h4>
+  <div class="markdown level1 summary"><p>Получает URL для скачивания файла из ответа РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string GetFileUrlFromResponse(string response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Ответ РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>URL для скачивания файла.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_ProcessRtuGetFixFollowMeScriptResponse_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.ProcessRtuGetFixFollowMeScriptResponse*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_ProcessRtuGetFixFollowMeScriptResponse_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.ProcessRtuGetFixFollowMeScriptResponse(System.String)">ProcessRtuGetFixFollowMeScriptResponse(String)</h4>
+  <div class="markdown level1 summary"><p>Обрабатывает результат выполнения команды корректировки идентификатора скрипта для сценария FollowMe.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessRtuGetFixFollowMeScriptResponse(string response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Ответ с РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Признак успешности корректировки.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_ProcessRtuGetSizeResponse_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.ProcessRtuGetSizeResponse*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_ProcessRtuGetSizeResponse_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.ProcessRtuGetSizeResponse(System.String)">ProcessRtuGetSizeResponse(String)</h4>
+  <div class="markdown level1 summary"><p>Обрабатывает результат выполнения команды получения размера записи разговора на РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ProcessRtuGetSizeResponse(string response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Ответ с РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Признак успешности получения размера записи разговора.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_ProcessRtuRemovalResponse_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.ProcessRtuRemovalResponse*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuCommandsService_ProcessRtuRemovalResponse_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuCommandsService.ProcessRtuRemovalResponse(System.String)">ProcessRtuRemovalResponse(String)</h4>
+  <div class="markdown level1 summary"><p>Обрабатывает результат выполнения команды удаления на РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ProcessRtuRemovalResponse(string response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>Ответ с РТУ.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Признак успешности удаления.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

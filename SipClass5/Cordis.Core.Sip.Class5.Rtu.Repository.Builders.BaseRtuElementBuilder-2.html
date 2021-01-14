@@ -1,0 +1,1313 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseRtuElementBuilder&lt;TD, TU&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseRtuElementBuilder&lt;TD, TU&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2" class="text-break">Class BaseRtuElementBuilder&lt;TD, TU&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Базовый билдер элемента домена РТУ.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BaseRtuElementBuilder&lt;TD, TU&gt;</span></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.AdministratorBuilder.html">AdministratorBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.AliasBuilder.html">AliasBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.AliasGroupBuilder.html">AliasGroupBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.CallRecordingSettingBuilder.html">CallRecordingSettingBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.CallRecordRuleBuilder.html">CallRecordRuleBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.CodecGroupsBuilder.html">CodecGroupsBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.CommonSettingBuilder.html">CommonSettingBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.DomainMatchBuilder.html">DomainMatchBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.DomainVasBuilder.html">DomainVasBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.GatewayBuilder.html">GatewayBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.HuntGroupAgentBuilder.html">HuntGroupAgentBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.IvrScriptBuilder.html">IvrScriptBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.LegLimitBuilder.html">LegLimitBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.LicenseServiceReportBuilder.html">LicenseServiceReportBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.LicenseUsageReportBuilder.html">LicenseUsageReportBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.MassCallingServiceBuilder.html">MassCallingServiceBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.NestedGroupsBuilder.html">NestedGroupsBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.NumberingZoneBuilder.html">NumberingZoneBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.NumberIntervalBuilder.html">NumberIntervalBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.PostrouteBuilder.html">PostrouteBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.PrerouteBuilder.html">PrerouteBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.PromptBuilder.html">PromptBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.PromptCategoryBuilder.html">PromptCategoryBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.RouteBuilder.html">RouteBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.ServicePackageBuilder.html">ServicePackageBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.SubscribersServiceBuilder.html">SubscribersServiceBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.SystemVoiceMailboxMessageListBuilder.html">SystemVoiceMailboxMessageListBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.TerminalProfileBuilder.html">TerminalProfileBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.TimetableBuilder.html">TimetableBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.TimetableTemplateBuilder.html">TimetableTemplateBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.DomainBuilders.UserBuilder.html">UserBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.AdditionalForwardingBuilder.html">AdditionalForwardingBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.FollowMeBuilder.html">FollowMeBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.FollowMeStepBuilder.html">FollowMeStepBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.IvrScriptBuilder.html">IvrScriptBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.PromptBuilder.html">PromptBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.PromptCategoryBuilder.html">PromptCategoryBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.UserTerminalBuilder.html">UserTerminalBuilder</a></div>
+      <div class="level2"><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.Implementations.UserBuilders.VoiceMailMessageBuilder.html">VoiceMailMessageBuilder</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.IBaseEntityBuilder-2.html">IBaseEntityBuilder</a>&lt;TD, TU&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.html">Cordis.Core.Sip.Class5.Rtu.Repository.Builders</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">abstract class BaseRtuElementBuilder&lt;TD, TU&gt; : IBaseEntityBuilder&lt;TD, TU&gt; where TD : class, IDomainElement where TU : class, IUserElement</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TD</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TU</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_IsEntityInheritable_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.IsEntityInheritable*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_IsEntityInheritable" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.IsEntityInheritable">IsEntityInheritable</h4>
+  <div class="markdown level1 summary"><p>Флаг возможности наследования для сущности.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool IsEntityInheritable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_DomainSettings__System_Action_Cordis_Core_Sip_Class5_Rtu_Model_RTU_DomainSettings__0__System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings},System.Action{Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings,`0},System.Collections.Generic.IEnumerable{System.Int32})">Build(DataConnection, IEnumerable&lt;DomainSettings&gt;, Action&lt;DomainSettings, TD&gt;, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Метод построения объектной модели списка параметров доменов API РТУ МОА.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Build(DataConnection data, IEnumerable&lt;DomainSettings&gt; domains, Action&lt;DomainSettings, TD&gt; propertySetter, IEnumerable&lt;int&gt; idConstraint = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a>&gt;</td>
+        <td><span class="parametername">domains</span></td>
+        <td><p>Параметры доменов.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a>, TD&gt;</td>
+        <td><span class="parametername">propertySetter</span></td>
+        <td><p>Делегат для назначения свойств.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_DomainSettings__System_Func_Cordis_Core_Sip_Class5_Rtu_Model_RTU_DomainSettings_System_Collections_Generic_List__0___System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings},System.Func{Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings,System.Collections.Generic.List{`0}},System.Collections.Generic.IEnumerable{System.Int32})">Build(DataConnection, IEnumerable&lt;DomainSettings&gt;, Func&lt;DomainSettings, List&lt;TD&gt;&gt;, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Метод построения объектной модели списка параметров доменов API РТУ МОА.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Build(DataConnection data, IEnumerable&lt;DomainSettings&gt; domains, Func&lt;DomainSettings, List&lt;TD&gt;&gt; destinationCollectionSelector, IEnumerable&lt;int&gt; idConstraint = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a>&gt;</td>
+        <td><span class="parametername">domains</span></td>
+        <td><p>Параметры доменов.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a>, <span class="xref">System.Collections.Generic.List</span>&lt;TD&gt;&gt;</td>
+        <td><span class="parametername">destinationCollectionSelector</span></td>
+        <td><p>Делегат для формирования конечной модели.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_User_User__System_Action_Cordis_Core_Sip_Class5_Rtu_Model_RTU_User_User__1__System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User},System.Action{Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User,`1},System.Collections.Generic.IEnumerable{System.Int32})">Build(DataConnection, IEnumerable&lt;User&gt;, Action&lt;User, TU&gt;, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Метод построения объектной модели пользователей API РТУ МОА.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Build(DataConnection data, IEnumerable&lt;User&gt; users, Action&lt;User, TU&gt; propertySetter, IEnumerable&lt;int&gt; idConstraint = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a>&gt;</td>
+        <td><span class="parametername">users</span></td>
+        <td><p>Пользователи.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a>, TU&gt;</td>
+        <td><span class="parametername">propertySetter</span></td>
+        <td><p>Делегат для назначения свойств.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Build_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_User_User__System_Func_Cordis_Core_Sip_Class5_Rtu_Model_RTU_User_User_System_Collections_Generic_List__1___System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Build(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User},System.Func{Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User,System.Collections.Generic.List{`1}},System.Collections.Generic.IEnumerable{System.Int32})">Build(DataConnection, IEnumerable&lt;User&gt;, Func&lt;User, List&lt;TU&gt;&gt;, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Метод построения объектной модели пользователей API РТУ МОА.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Build(DataConnection data, IEnumerable&lt;User&gt; users, Func&lt;User, List&lt;TU&gt;&gt; destinationCollectionSelector, IEnumerable&lt;int&gt; idConstraint = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a>&gt;</td>
+        <td><span class="parametername">users</span></td>
+        <td><p>Пользователи.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a>, <span class="xref">System.Collections.Generic.List</span>&lt;TU&gt;&gt;</td>
+        <td><span class="parametername">destinationCollectionSelector</span></td>
+        <td><p>Делегат для формирования конечной модели.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildField_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildField*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildField__2_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int32___System_Action___0___1__System_Action___0___1__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildField``2(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}},System.Action{``0,``1},System.Action{``0,``1})">BuildField&lt;T1, T2&gt;(DataConnection, IEnumerable&lt;T1&gt;, Func&lt;T1, Nullable&lt;Int32&gt;&gt;, Action&lt;T1, T2&gt;, Action&lt;T1, T2&gt;)</h4>
+  <div class="markdown level1 summary"><p>Заполняет сущность типа T1 данными из сущности Т2.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BuildField&lt;T1, T2&gt;(DataConnection data, IEnumerable&lt;T1&gt; parents, Func&lt;T1, int?&gt; idSelector, Action&lt;T1, T2&gt; resultSetter, Action&lt;T1, T2&gt; postBuilder = null)
+    where T2 : class, IDbEntityWithIntId</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T1&gt;</td>
+        <td><span class="parametername">parents</span></td>
+        <td><p>Родительские сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="parametername">idSelector</span></td>
+        <td><p>Делегат селектора идентификатора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2&gt;</td>
+        <td><span class="parametername">resultSetter</span></td>
+        <td><p>Делегат, который заполняет родительские сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2&gt;</td>
+        <td><span class="parametername">postBuilder</span></td>
+        <td><p>Билдер, вызываемый по исполнению метода.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildField_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildField*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildField__2_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable___0__System_Func_LinqToDB_ITable___1__System_Collections_Generic_IEnumerable_System_Int32__System_Linq_ILookup_System_Int32___1___System_Action___0_System_Collections_Generic_List___1___System_Action___0___1__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildField``2(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{``0},System.Func{LinqToDB.ITable{``1},System.Collections.Generic.IEnumerable{System.Int32},System.Linq.ILookup{System.Int32,``1}},System.Action{``0,System.Collections.Generic.List{``1}},System.Action{``0,``1})">BuildField&lt;T1, T2&gt;(DataConnection, IEnumerable&lt;T1&gt;, Func&lt;ITable&lt;T2&gt;, IEnumerable&lt;Int32&gt;, ILookup&lt;Int32, T2&gt;&gt;, Action&lt;T1, List&lt;T2&gt;&gt;, Action&lt;T1, T2&gt;)</h4>
+  <div class="markdown level1 summary"><p>Заполняет сущность типа T1 данными из сущности Т2.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BuildField&lt;T1, T2&gt;(DataConnection data, IEnumerable&lt;T1&gt; parents, Func&lt;ITable&lt;T2&gt;, IEnumerable&lt;int&gt;, ILookup&lt;int, T2&gt;&gt; lookupGetter, Action&lt;T1, List&lt;T2&gt;&gt; resultSetter, Action&lt;T1, T2&gt; postBuilder = null)
+    where T1 : class, IDbEntityWithIntId where T2 : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T1&gt;</td>
+        <td><span class="parametername">parents</span></td>
+        <td><p>Родительские сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">LinqToDB.ITable</span>&lt;T2&gt;, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;, <span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Int32</span>, T2&gt;&gt;</td>
+        <td><span class="parametername">lookupGetter</span></td>
+        <td><p>Делегат, который возвращает <span class="xref">System.Linq.ILookup&lt;TKey, TElement&gt;</span>, где значение это список сущностей Т2 , а ключ - идентификатор.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, <span class="xref">System.Collections.Generic.List</span>&lt;T2&gt;&gt;</td>
+        <td><span class="parametername">resultSetter</span></td>
+        <td><p>Делегат, который заполняет родительские сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, T2&gt;</td>
+        <td><span class="parametername">postBuilder</span></td>
+        <td><p>Билдер, вызываемый по исполнению метода.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildGroupSets_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildGroupSets*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildGroupSets__1_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int32___System_Action___0_Cordis_Core_Sip_Class5_Rtu_Model_RTU_GroupSet__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildGroupSets``1(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}},System.Action{``0,Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet})">BuildGroupSets&lt;T1&gt;(DataConnection, IEnumerable&lt;T1&gt;, Func&lt;T1, Nullable&lt;Int32&gt;&gt;, Action&lt;T1, GroupSet&gt;)</h4>
+  <div class="markdown level1 summary"><p>Строит наборы групп доступа и заполняет родительские сущности этими наборами.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BuildGroupSets&lt;T1&gt;(DataConnection data, IEnumerable&lt;T1&gt; parents, Func&lt;T1, int?&gt; idSelector, Action&lt;T1, GroupSet&gt; resultSetter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T1&gt;</td>
+        <td><span class="parametername">parents</span></td>
+        <td><p>Родительские сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="parametername">idSelector</span></td>
+        <td><p>Делегат селектора идентификатора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, <a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.GroupSet.html">GroupSet</a>&gt;</td>
+        <td><span class="parametername">resultSetter</span></td>
+        <td><p>Делегат, который заполняет родительские сущности.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildPromptSets_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildPromptSets*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildPromptSets__1_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int32___System_Action___0_Cordis_Core_Sip_Class5_Rtu_Model_RTU_PromptSet__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildPromptSets``1(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}},System.Action{``0,Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet})">BuildPromptSets&lt;T1&gt;(DataConnection, IEnumerable&lt;T1&gt;, Func&lt;T1, Nullable&lt;Int32&gt;&gt;, Action&lt;T1, PromptSet&gt;)</h4>
+  <div class="markdown level1 summary"><p>Строит набор аудиофайлов и заполняет родительские сущности этими наборами.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BuildPromptSets&lt;T1&gt;(DataConnection data, IEnumerable&lt;T1&gt; parents, Func&lt;T1, int?&gt; idSelector, Action&lt;T1, PromptSet&gt; resultSetter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T1&gt;</td>
+        <td><span class="parametername">parents</span></td>
+        <td><p>Родительские сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="parametername">idSelector</span></td>
+        <td><p>Делегат селектора идентификатора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, <a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet.html">PromptSet</a>&gt;</td>
+        <td><span class="parametername">resultSetter</span></td>
+        <td><p>Делегат, который заполняет родительские сущности.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildServiceSets_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildServiceSets*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_BuildServiceSets__1_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int32___System_Action___0_Cordis_Core_Sip_Class5_Rtu_Model_RTU_ServiceSet__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.BuildServiceSets``1(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}},System.Action{``0,Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet})">BuildServiceSets&lt;T1&gt;(DataConnection, IEnumerable&lt;T1&gt;, Func&lt;T1, Nullable&lt;Int32&gt;&gt;, Action&lt;T1, ServiceSet&gt;)</h4>
+  <div class="markdown level1 summary"><p>Строит набор сервисов и заполняет родительские сущности этими наборами.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BuildServiceSets&lt;T1&gt;(DataConnection data, IEnumerable&lt;T1&gt; parents, Func&lt;T1, int?&gt; idSelector, Action&lt;T1, ServiceSet&gt; resultSetter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T1&gt;</td>
+        <td><span class="parametername">parents</span></td>
+        <td><p>Родительские сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T1, <span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><span class="parametername">idSelector</span></td>
+        <td><p>Делегат селектора идентификатора.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T1, <a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.ServiceSet.html">ServiceSet</a>&gt;</td>
+        <td><span class="parametername">resultSetter</span></td>
+        <td><p>Делегат, который заполняет родительские сущности.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillDomainSettingsForEntities_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillDomainSettingsForEntities*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillDomainSettingsForEntities_System_Linq_ILookup_System_Int32__0__System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_DomainSettings__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillDomainSettingsForEntities(System.Linq.ILookup{System.Int32,`0},System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings})">FillDomainSettingsForEntities(ILookup&lt;Int32, TD&gt;, IEnumerable&lt;DomainSettings&gt;)</h4>
+  <div class="markdown level1 summary"><p>Заполняет параметры доменов для сущностей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FillDomainSettingsForEntities(ILookup&lt;int, TD&gt; entitiesByDomainId, IEnumerable&lt;DomainSettings&gt; domains)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Int32</span>, TD&gt;</td>
+        <td><span class="parametername">entitiesByDomainId</span></td>
+        <td><p>Сущности.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a>&gt;</td>
+        <td><span class="parametername">domains</span></td>
+        <td><p>Параметры доменов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillLookup_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillLookup*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillLookup_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_DomainSettings__System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillLookup(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings},System.Collections.Generic.IEnumerable{System.Int32})">FillLookup(DataConnection, IEnumerable&lt;DomainSettings&gt;, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Заполняет объекты данными в виде структуры ILookup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ILookup&lt;int, TD&gt; FillLookup(DataConnection data, IEnumerable&lt;DomainSettings&gt; domains, IEnumerable&lt;int&gt; idConstraint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a>&gt;</td>
+        <td><span class="parametername">domains</span></td>
+        <td><p>Параметры доменов.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Int32</span>, TD&gt;</td>
+        <td><p>ILookup с заполненными данными об объектах.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillLookup_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillLookup*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillLookup_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_User_User__System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillLookup(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User},System.Collections.Generic.IEnumerable{System.Int32})">FillLookup(DataConnection, IEnumerable&lt;User&gt;, IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Заполняет объекты данными в виде структуры ILookup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ILookup&lt;int, TU&gt; FillLookup(DataConnection data, IEnumerable&lt;User&gt; users, IEnumerable&lt;int&gt; idConstraint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a>&gt;</td>
+        <td><span class="parametername">users</span></td>
+        <td><p>Пользователи.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Int32</span>, TU&gt;</td>
+        <td><p>ILookup с заполненными данными об объектах.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillUserForEntities_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillUserForEntities*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_FillUserForEntities_System_Linq_ILookup_System_Int32__1__System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_User_User__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.FillUserForEntities(System.Linq.ILookup{System.Int32,`1},System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User})">FillUserForEntities(ILookup&lt;Int32, TU&gt;, IEnumerable&lt;User&gt;)</h4>
+  <div class="markdown level1 summary"><p>Заполняет пользователя для сущностей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void FillUserForEntities(ILookup&lt;int, TU&gt; entitiesByUserId, IEnumerable&lt;User&gt; users)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Int32</span>, TU&gt;</td>
+        <td><span class="parametername">entitiesByUserId</span></td>
+        <td><p><span class="xref">System.Linq.ILookup&lt;TKey, TElement&gt;</span>, в котором ключ - идентификатор пользователя, значение - список сущностей.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a>&gt;</td>
+        <td><span class="parametername">users</span></td>
+        <td><p>Список пользователей.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_GetInherited_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.GetInherited*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_GetInherited__1_System_Collections_Generic_IEnumerable___0__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.GetInherited``1(System.Collections.Generic.IEnumerable{``0})">GetInherited&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Этот метод нужен для работы с объектами которые могут быть унаследованы из родительского домена.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;T&gt; GetInherited&lt;T&gt;(IEnumerable&lt;T&gt; src)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_GetLookup_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.GetLookup*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_GetLookup_LinqToDB_ITable__0__System_Int32___System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.GetLookup(LinqToDB.ITable{`0},System.Int32[],System.Collections.Generic.IEnumerable{System.Int32})">GetLookup(ITable&lt;TD&gt;, Int32[], IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Собирает объекты в структуру ILookup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual ILookup&lt;int, TD&gt; GetLookup(ITable&lt;TD&gt; table, int[] domainIds, IEnumerable&lt;int&gt; idConstraint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;TD&gt;</td>
+        <td><span class="parametername">table</span></td>
+        <td><p>Элементы домена.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">domainIds</span></td>
+        <td><p>Идентификаторы доменов.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Int32</span>, TD&gt;</td>
+        <td><p>ILookup с данными об объектах.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_GetLookup_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.GetLookup*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_GetLookup_LinqToDB_ITable__1__System_Int32___System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.GetLookup(LinqToDB.ITable{`1},System.Int32[],System.Collections.Generic.IEnumerable{System.Int32})">GetLookup(ITable&lt;TU&gt;, Int32[], IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Собирает объекты в структуру ILookup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual ILookup&lt;int, TU&gt; GetLookup(ITable&lt;TU&gt; table, int[] userIds, IEnumerable&lt;int&gt; idConstraint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.ITable</span>&lt;TU&gt;</td>
+        <td><span class="parametername">table</span></td>
+        <td><p>Элементы домена.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">userIds</span></td>
+        <td><p>Идентификаторы пользователей.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">idConstraint</span></td>
+        <td><p>Идентификаторы ограничений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.ILookup</span>&lt;<span class="xref">System.Int32</span>, TU&gt;</td>
+        <td><p>ILookup с данными об объектах.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_LoadNestedEntities_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.LoadNestedEntities*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_LoadNestedEntities_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable__0__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.LoadNestedEntities(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{`0})">LoadNestedEntities(DataConnection, IEnumerable&lt;TD&gt;)</h4>
+  <div class="markdown level1 summary"><p>Загружает вложенные сущности элементов домена.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void LoadNestedEntities(DataConnection data, IEnumerable&lt;TD&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Соединение с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TD&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>Элементы домена.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_LoadNestedEntities_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.LoadNestedEntities*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_LoadNestedEntities_LinqToDB_Data_DataConnection_System_Collections_Generic_IEnumerable__1__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.LoadNestedEntities(LinqToDB.Data.DataConnection,System.Collections.Generic.IEnumerable{`1})">LoadNestedEntities(DataConnection, IEnumerable&lt;TU&gt;)</h4>
+  <div class="markdown level1 summary"><p>Загружает вложенные сущностей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void LoadNestedEntities(DataConnection data, IEnumerable&lt;TU&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">LinqToDB.Data.DataConnection</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Объект соединения с БД.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TU&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>Сущности.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_OrderPrompts_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.OrderPrompts*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_OrderPrompts_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_PromptSet2Prompt__System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Rtu_Model_RTU_Prompt__" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.OrderPrompts(System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet2Prompt},System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Rtu.Model.RTU.Prompt})">OrderPrompts(IEnumerable&lt;PromptSet2Prompt&gt;, IEnumerable&lt;Prompt&gt;)</h4>
+  <div class="markdown level1 summary"><p>Сортирует аудиофайлы.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;Prompt&gt; OrderPrompts(IEnumerable&lt;PromptSet2Prompt&gt; promptSets2Prompts, IEnumerable&lt;Prompt&gt; prompts)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.PromptSet2Prompt.html">PromptSet2Prompt</a>&gt;</td>
+        <td><span class="parametername">promptSets2Prompts</span></td>
+        <td><p>Список связей наборов аудиофайлов к аудиофайлам.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Prompt.html">Prompt</a>&gt;</td>
+        <td><span class="parametername">prompts</span></td>
+        <td><p>Аудиофайлы.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.Prompt.html">Prompt</a>&gt;</td>
+        <td><p>Отсортированный список аудиофайлов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Postbuild_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Postbuild*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Postbuild__0_Cordis_Core_Sip_Class5_Rtu_Model_RTU_DomainSettings_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Postbuild(`0,Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings)">Postbuild(TD, DomainSettings)</h4>
+  <div class="markdown level1 summary"><p>Постбилдер для элемента домена.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Postbuild(TD item, DomainSettings domain)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TD</span></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>Элемент домена.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.DomainSettings.html">DomainSettings</a></td>
+        <td><span class="parametername">domain</span></td>
+        <td><p>Параметры домена.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Postbuild_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Postbuild*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Rtu_Repository_Builders_BaseRtuElementBuilder_2_Postbuild__1_Cordis_Core_Sip_Class5_Rtu_Model_RTU_User_User_" data-uid="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.BaseRtuElementBuilder`2.Postbuild(`1,Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User)">Postbuild(TU, User)</h4>
+  <div class="markdown level1 summary"><p>Вносит корректировки в объект после билдера.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Postbuild(TU item, User user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TU</span></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>Объект.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Model.RTU.User.User.html">User</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>Пользователь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Cordis.Core.Sip.Class5.Rtu.Repository.Builders.IBaseEntityBuilder-2.html">IBaseEntityBuilder&lt;TD, TU&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

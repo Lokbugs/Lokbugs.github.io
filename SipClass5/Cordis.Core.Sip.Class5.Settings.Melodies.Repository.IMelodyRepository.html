@@ -1,0 +1,868 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IMelodyRepository
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IMelodyRepository
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository" class="text-break">Interface IMelodyRepository
+  </h1>
+  <div class="markdown level0 summary"><p>Интерфейс репозитория для управления телефонными мелодиями.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.html">Cordis.Core.Sip.Class5.Settings.Melodies.Repository</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">interface IMelodyRepository</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_AddHoldMelodyAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.AddHoldMelodyAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_AddHoldMelodyAsync_System_Int32_System_Int32_System_Byte___System_TimeSpan_System_Int32_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.AddHoldMelodyAsync(System.Int32,System.Int32,System.Byte[],System.TimeSpan,System.Int32,System.Int32)">AddHoldMelodyAsync(Int32, Int32, Byte[], TimeSpan, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Добавляет мелодию для удержания.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; AddHoldMelodyAsync(int melodyId, int melodyCategoryId, byte[] bytes, TimeSpan duration, int vteId, int vtePortId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">melodyId</span></td>
+        <td><p>Идентификатор мелодии, параметры которого будут взяты для добавления мелодии удержания.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">melodyCategoryId</span></td>
+        <td><p>Идентификатор категории мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>Загружаемые байты.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Продолжительность файла.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vtePortId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Идентификатор созданной мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_AddMelodyAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.AddMelodyAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_AddMelodyAsync_System_String_System_String_System_Int32_System_Int32_System_Byte___System_TimeSpan_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.AddMelodyAsync(System.String,System.String,System.Int32,System.Int32,System.Byte[],System.TimeSpan,System.String)">AddMelodyAsync(String, String, Int32, Int32, Byte[], TimeSpan, String)</h4>
+  <div class="markdown level1 summary"><p>Добавляет запись в таблицу RTU.prompt.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; AddMelodyAsync(string name, string description, int vteId, int melodyCategoryId, byte[] bytes, TimeSpan duration, string fileExtension)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Уникальный идентификатор мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Наименование мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">melodyCategoryId</span></td>
+        <td><p>Идентификатор категории мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>Загружаемые байты.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Продолжительность файла.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileExtension</span></td>
+        <td><p>Расширение файла.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Идентификатор созданной мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_AddMelodyCategoryAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.AddMelodyCategoryAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_AddMelodyCategoryAsync_System_Int32_System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.AddMelodyCategoryAsync(System.Int32,System.Nullable{System.Int32})">AddMelodyCategoryAsync(Int32, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Добавляет запись в таблицу RTU.prompt_category со следующими параметрами:
+name = &quot;user&quot;,
+domain = переданный vteId,
+is_default = 0,
+user = переданный vtePortId.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; AddMelodyCategoryAsync(int vteId, int? vtePortId = default(int? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">vtePortId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Идентификатор созданной категории мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_CreateDefaultAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.CreateDefaultAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_CreateDefaultAsync_System_Int32_System_Nullable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.CreateDefaultAsync(System.Int32,System.Nullable{System.Int32})">CreateDefaultAsync(Int32, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Создает порт по умолчанию.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CreateDefaultAsync(int domainId, int? userId = default(int? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">domainId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_DeleteMelodiesAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.DeleteMelodiesAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_DeleteMelodiesAsync_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.DeleteMelodiesAsync(System.Collections.Generic.IEnumerable{System.Int32})">DeleteMelodiesAsync(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Удаляет записи из таблицы RTU.prompt с переданными идентификаторами.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteMelodiesAsync(IEnumerable&lt;int&gt; melodyIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">melodyIds</span></td>
+        <td><p>Идентификаторы мелодий.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodiesByDescriptionAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodiesByDescriptionAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodiesByDescriptionAsync_System_Int32_System_String_System_Nullable_System_Boolean__" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodiesByDescriptionAsync(System.Int32,System.String,System.Nullable{System.Boolean})">GetMelodiesByDescriptionAsync(Int32, String, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Получает мелодии для ВАТС по описанию.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;MelodyInfoWithRtuName&gt;&gt; GetMelodiesByDescriptionAsync(int vteId, string description, bool? isDefault = default(bool? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Описание мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">isDefault</span></td>
+        <td><p>Параметр is_default категории мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInfoWithRtuName.html">MelodyInfoWithRtuName</a>&gt;&gt;</td>
+        <td><p>Мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodiesByNameAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodiesByNameAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodiesByNameAsync_System_Int32_System_String_System_Nullable_System_Boolean__" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodiesByNameAsync(System.Int32,System.String,System.Nullable{System.Boolean})">GetMelodiesByNameAsync(Int32, String, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Получает мелодии для ВАТС по названию.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;MelodyInfoWithRtuName&gt;&gt; GetMelodiesByNameAsync(int vteId, string name, bool? isDefault = default(bool? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Название мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">isDefault</span></td>
+        <td><p>Параметр is_default категории мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInfoWithRtuName.html">MelodyInfoWithRtuName</a>&gt;&gt;</td>
+        <td><p>Мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodiesByVteIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodiesByVteIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodiesByVteIdAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodiesByVteIdAsync(System.Int32)">GetMelodiesByVteIdAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Получает мелодии по идентификатору ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IEnumerable&lt;MelodyInfoWithRtuName&gt;&gt; GetMelodiesByVteIdAsync(int vteId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInfoWithRtuName.html">MelodyInfoWithRtuName</a>&gt;&gt;</td>
+        <td><p>Мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyAndCategoryNameAndRtuDomainIdByMelodyIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyAndCategoryNameAndRtuDomainIdByMelodyIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyAndCategoryNameAndRtuDomainIdByMelodyIdAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyAndCategoryNameAndRtuDomainIdByMelodyIdAsync(System.Int32)">GetMelodyAndCategoryNameAndRtuDomainIdByMelodyIdAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Получает название мелодии и ее категории по идентификатору мелодии.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;(string melodyName, string categoryName, string rtuDomainId)&gt; GetMelodyAndCategoryNameAndRtuDomainIdByMelodyIdAsync(int melodyId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">melodyId</span></td>
+        <td><p>Идентификатор мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><p>Название мелодии и ее категории, идентификатор домена в РТУ (rtu.domain.id).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyByIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyByIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyByIdAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyByIdAsync(System.Int32)">GetMelodyByIdAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Получает мелодию по идентификатору.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;MelodyInfoWithRtuName&gt; GetMelodyByIdAsync(int melodyId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">melodyId</span></td>
+        <td><p>Идентификатор мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.MelodyInfoWithRtuName.html">MelodyInfoWithRtuName</a>&gt;</td>
+        <td><p>Мелодию.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyBytesByIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyBytesByIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyBytesByIdAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyBytesByIdAsync(System.Int32)">GetMelodyBytesByIdAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Получает байты мелодии по идентификатору мелодии.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;byte[]&gt; GetMelodyBytesByIdAsync(int melodyId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">melodyId</span></td>
+        <td><p>Идентификатор мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
+        <td><p>Байты мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyCategoryIdByVteIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyCategoryIdByVteIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyCategoryIdByVteIdAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyCategoryIdByVteIdAsync(System.Int32)">GetMelodyCategoryIdByVteIdAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Получает идентификатор категории мелодии по идентификатору ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int?&gt; GetMelodyCategoryIdByVteIdAsync(int vteId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><p>Идентификатор категории мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyCategoryIdByVtePortIdAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyCategoryIdByVtePortIdAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_GetMelodyCategoryIdByVtePortIdAsync_System_Int32_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.GetMelodyCategoryIdByVtePortIdAsync(System.Int32)">GetMelodyCategoryIdByVtePortIdAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Получает идентификатор категории мелодии по идентификатору порта ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int?&gt; GetMelodyCategoryIdByVtePortIdAsync(int vtePortId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vtePortId</span></td>
+        <td><p>Идентификатор порта ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
+        <td><p>Идентификатор категории мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_UpdateMelodyDescriptionAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.UpdateMelodyDescriptionAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_Melodies_Repository_IMelodyRepository_UpdateMelodyDescriptionAsync_System_Int32_System_String_System_String_" data-uid="Cordis.Core.Sip.Class5.Settings.Melodies.Repository.IMelodyRepository.UpdateMelodyDescriptionAsync(System.Int32,System.String,System.String)">UpdateMelodyDescriptionAsync(Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Устанавливает параметр RTU.prompt.description = newDescription для всех записей с указанным oldDescription.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdateMelodyDescriptionAsync(int vteId, string oldDescription, string newDescription)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vteId</span></td>
+        <td><p>Идентификатор мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oldDescription</span></td>
+        <td><p>Старое имя мелодии.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">newDescription</span></td>
+        <td><p>Новое имя мелодии.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

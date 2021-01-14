@@ -1,0 +1,1419 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CallInfoSyncService
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CallInfoSyncService
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService">
+  
+  
+  <h1 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService" class="text-break">Class CallInfoSyncService
+  </h1>
+  <div class="markdown level0 summary"><p>Сервис для синхронизации информации о записях разговоров с РТУ.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CallInfoSyncService</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.ICallInfoSyncService.html">ICallInfoSyncService</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.html">Cordis.Core.Sip.Class5.Settings.CallInfos.Service</a></h6>
+  <h6><strong>Assembly</strong>: Cordis.Core.Sip.Class5.dll</h6>
+  <h5 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">class CallInfoSyncService : ICallInfoSyncService</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__ctor_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.#ctor*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__ctor_Cordis_Core_Sip_Class5_Settings_CallInfos_Repository_ICallInfoRepository_Cordis_Core_Sip_Class5_Settings_CallInfos_Repository_ICallRecordRepository_Cordis_Core_Sip_Class5_Settings_Vtes_Repository_IVteRepository_Cordis_Core_Sip_Class5_Settings_CallInfos_Repository_ICallInfoSyncRepository_Cordis_Core_Sip_Class5_Settings_RtuCommands_Service_IRtuQueryService_Cordis_Core_Sip_Class5_Settings_CallInfos_Helpers_ICallInfoSyncHelper_Cordis_Core_Sip_Class5_Settings_Repository_IBaseRepository_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.#ctor(Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallInfoRepository,Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallRecordRepository,Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IVteRepository,Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallInfoSyncRepository,Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuQueryService,Cordis.Core.Sip.Class5.Settings.CallInfos.Helpers.ICallInfoSyncHelper,Cordis.Core.Sip.Class5.Settings.Repository.IBaseRepository)">CallInfoSyncService(ICallInfoRepository, ICallRecordRepository, IVteRepository, ICallInfoSyncRepository, IRtuQueryService, ICallInfoSyncHelper, IBaseRepository)</h4>
+  <div class="markdown level1 summary"><p>Конструктор.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CallInfoSyncService(ICallInfoRepository callInfoRepository, ICallRecordRepository callRecordRepository, IVteRepository vteRepository, ICallInfoSyncRepository callInfoSyncRepository, IRtuQueryService rtuQueryService, ICallInfoSyncHelper callInfoSyncHelper, IBaseRepository baseRepository)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallInfoRepository.html">ICallInfoRepository</a></td>
+        <td><span class="parametername">callInfoRepository</span></td>
+        <td><p>Репозиторий для работы с таблицей RTU.[call_info].</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallRecordRepository.html">ICallRecordRepository</a></td>
+        <td><span class="parametername">callRecordRepository</span></td>
+        <td><p>Репозиторий для работы с таблицей RTU.[call_record].</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IVteRepository.html">IVteRepository</a></td>
+        <td><span class="parametername">vteRepository</span></td>
+        <td><p>Репозиторий методов управления параметрами ВАТС.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallInfoSyncRepository.html">ICallInfoSyncRepository</a></td>
+        <td><span class="parametername">callInfoSyncRepository</span></td>
+        <td><p>Репозиторий для синхронизации с РТУ информации о совершенных вызовах.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuQueryService.html">IRtuQueryService</a></td>
+        <td><span class="parametername">rtuQueryService</span></td>
+        <td><p>Сервис для работы с запросами к РТУ.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Helpers.ICallInfoSyncHelper.html">ICallInfoSyncHelper</a></td>
+        <td><span class="parametername">callInfoSyncHelper</span></td>
+        <td><p>Вспомогательный класс для синхронизации информации о записях разговоров с РТУ.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Repository.IBaseRepository.html">IBaseRepository</a></td>
+        <td><span class="parametername">baseRepository</span></td>
+        <td><p>Базовый репозиторий для работы с таблицами в БД.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__baseRepository" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService._baseRepository">_baseRepository</h4>
+  <div class="markdown level1 summary"><p>Базовый репозиторий для работы с таблицами в БД.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBaseRepository _baseRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Repository.IBaseRepository.html">IBaseRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__callInfoRepository" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService._callInfoRepository">_callInfoRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий для работы с таблицей RTU.[call_info].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">readonly ICallInfoRepository _callInfoRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallInfoRepository.html">ICallInfoRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__callInfoSyncHelper" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService._callInfoSyncHelper">_callInfoSyncHelper</h4>
+  <div class="markdown level1 summary"><p>Вспомогательный класс для синхронизации информации о записях разговоров с РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">readonly ICallInfoSyncHelper _callInfoSyncHelper</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Helpers.ICallInfoSyncHelper.html">ICallInfoSyncHelper</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__callInfoSyncRepository" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService._callInfoSyncRepository">_callInfoSyncRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий для синхронизации с РТУ информации о совершенных вызовах.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">readonly ICallInfoSyncRepository _callInfoSyncRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallInfoSyncRepository.html">ICallInfoSyncRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__callRecordRepository" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService._callRecordRepository">_callRecordRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий для работы с таблицей RTU.[call_record].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">readonly ICallRecordRepository _callRecordRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Repository.ICallRecordRepository.html">ICallRecordRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__rtuQueryService" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService._rtuQueryService">_rtuQueryService</h4>
+  <div class="markdown level1 summary"><p>Сервис для работы с запросами к РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">readonly IRtuQueryService _rtuQueryService</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.RtuCommands.Service.IRtuQueryService.html">IRtuQueryService</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService__vteRepository" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService._vteRepository">_vteRepository</h4>
+  <div class="markdown level1 summary"><p>Репозиторий методов управления параметрами ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">readonly IVteRepository _vteRepository</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.Vtes.Repository.IVteRepository.html">IVteRepository</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DVO_CALL_FORWARDING_PATTERN" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DVO_CALL_FORWARDING_PATTERN">DVO_CALL_FORWARDING_PATTERN</h4>
+  <div class="markdown level1 summary"><p>Шаблон для состояния вызов переадресован для дополнительных видов обслуживания для записи синхронизации с РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string DVO_CALL_FORWARDING_PATTERN = &quot;Forward.*&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DVO_CALL_REPLACING" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DVO_CALL_REPLACING">DVO_CALL_REPLACING</h4>
+  <div class="markdown level1 summary"><p>Состояние замена вызова для дополнительных видов обслуживания для записи синхронизации с РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string DVO_CALL_REPLACING = &quot;CallReplacing&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DVO_CALL_TRANSFER" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DVO_CALL_TRANSFER">DVO_CALL_TRANSFER</h4>
+  <div class="markdown level1 summary"><p>Состояние перевода вызова во время разговора на другой порт для дополнительных видов обслуживания для записи синхронизации с РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string DVO_CALL_TRANSFER = &quot;CallTransfer&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DVO_PICKUP" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DVO_PICKUP">DVO_PICKUP</h4>
+  <div class="markdown level1 summary"><p>Состояние вызов перехвачен для дополнительных видов обслуживания для записи синхронизации с РТУ.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string DVO_PICKUP = &quot;PickUp&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_FORWARD_SUBSCRIBER_SERVICE" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.FORWARD_SUBSCRIBER_SERVICE">FORWARD_SUBSCRIBER_SERVICE</h4>
+  <div class="markdown level1 summary"><p>ДВО следуй за мной</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string FORWARD_SUBSCRIBER_SERVICE = &quot;ForwardSubscriberService&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_HIDDEN_SERVICE_NUMBER_LENGTH" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.HIDDEN_SERVICE_NUMBER_LENGTH">HIDDEN_SERVICE_NUMBER_LENGTH</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const int HIDDEN_SERVICE_NUMBER_LENGTH = 5</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_IVR_SERVICE_COMPLETE_SERVICE_TYPE" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.IVR_SERVICE_COMPLETE_SERVICE_TYPE">IVR_SERVICE_COMPLETE_SERVICE_TYPE</h4>
+  <div class="markdown level1 summary"><p>Тип сервиса голосовое меню в таблице RTU.service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string IVR_SERVICE_COMPLETE_SERVICE_TYPE = &quot;IVRServiceComplete&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_PORT_NUMBER_PATTERN" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.PORT_NUMBER_PATTERN">PORT_NUMBER_PATTERN</h4>
+  <div class="markdown level1 summary"><p>Шаблон определения вхождения номера в диапазон внутренних вызовов.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string PORT_NUMBER_PATTERN = &quot;^[2-9][0-9][0-9][0-9]$&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_PSTN_NUMBER_MINIUM_LENGTH" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.PSTN_NUMBER_MINIUM_LENGTH">PSTN_NUMBER_MINIUM_LENGTH</h4>
+  <div class="markdown level1 summary"><p>Минимальная длинна номера ТФОП</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const int PSTN_NUMBER_MINIUM_LENGTH = 6</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_TERMINATOR_ID_PATTERN" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.TERMINATOR_ID_PATTERN">TERMINATOR_ID_PATTERN</h4>
+  <div class="markdown level1 summary"><p>Шаблон для идентификатора адресата вызова, состоящего только из цифр.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string TERMINATOR_ID_PATTERN = &quot;^[0-9]+$&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_UNSOCCESSFULL_CALL_CODE" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.UNSOCCESSFULL_CALL_CODE">UNSOCCESSFULL_CALL_CODE</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string UNSOCCESSFULL_CALL_CODE = &quot;&#1044;&#1088;&#1091;&#1075;&#1086;&#1077;&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_UPLINK_GATEWAY_ID" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.UPLINK_GATEWAY_ID">UPLINK_GATEWAY_ID</h4>
+  <div class="markdown level1 summary"><p>РТУ -удентификатор шлюза в родительский домен</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">const string UPLINK_GATEWAY_ID = &quot;Uplink&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_ActualizeResultCallInfos_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.ActualizeResultCallInfos*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_ActualizeResultCallInfos_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Settings_DataModel_GroupCallInfosSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.ActualizeResultCallInfos(System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync})">ActualizeResultCallInfos(IEnumerable&lt;GroupCallInfosSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Формирует набор записей которые попадут в Таблицу И устанавливает этим запмсям актуальные свойства</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;CallInfoSync&gt; ActualizeResultCallInfos(IEnumerable&lt;GroupCallInfosSync&gt; resultingCallInfosSync)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a>&gt;</td>
+        <td><span class="parametername">resultingCallInfosSync</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_AddCallInfosAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.AddCallInfosAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_AddCallInfosAsync_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.AddCallInfosAsync(System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync})">AddCallInfosAsync(IEnumerable&lt;CallInfoSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Загружает в БД информацию о записях разговоров. Из спецификации <a href="https://ckb.itmh.ru/pages/viewpage.action?pageId=347207575">https://ckb.itmh.ru/pages/viewpage.action?pageId=347207575</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;KeyValuePair&lt;int, string&gt;&gt;&gt; AddCallInfosAsync(IEnumerable&lt;CallInfoSync&gt; syncItems)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td><span class="parametername">syncItems</span></td>
+        <td><p>Перечисление информации о записях разговоров.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.String</span>&gt;&gt;&gt;</td>
+        <td><p>Список идентификаторов доменов результирующих записей (domain в таблице rtu.domain) и соответствующих им имен (id в таблице rtu.domain).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_AddCallRecordsAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.AddCallRecordsAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_AddCallRecordsAsync_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_Int32_System_String___" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.AddCallRecordsAsync(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.Int32,System.String}})">AddCallRecordsAsync(IEnumerable&lt;KeyValuePair&lt;Int32, String&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Асинхронно загружает в БД новые записи разговоров.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;long&gt;&gt; AddCallRecordsAsync(IEnumerable&lt;KeyValuePair&lt;int, string&gt;&gt; rtuDomainIdsByDomainIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int32</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">rtuDomainIdsByDomainIds</span></td>
+        <td><p>Список идентификаторов записей из таблицы rtu.domain и соответствующих им rtuId (id в таблице rtu.domain).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int64</span>&gt;&gt;</td>
+        <td><p>Идентификаторы добавленных в БД записей разговоров.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_CalcCallDirection_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.CalcCallDirection*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_CalcCallDirection_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync_System_Linq_IGrouping_System_Guid_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.CalcCallDirection(Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync,System.Linq.IGrouping{System.Guid,Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync})">CalcCallDirection(CallInfoSync, IGrouping&lt;Guid, CallInfoSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Расчитывает направление вызова на основе инициирующей записи и исходноко списка CDR</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CallDirectionType CalcCallDirection(CallInfoSync initialCdrLine, IGrouping&lt;Guid, CallInfoSync&gt; group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a></td>
+        <td><span class="parametername">initialCdrLine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.IGrouping</span>&lt;<span class="xref">System.Guid</span>, <a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallDirectionType.html">CallDirectionType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_CheckIvrInCall_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.CheckIvrInCall*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_CheckIvrInCall_Cordis_Core_Sip_Class5_Settings_DataModel_GroupCallInfosSync_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.CheckIvrInCall(Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync)">CheckIvrInCall(GroupCallInfosSync)</h4>
+  <div class="markdown level1 summary"><p>Проверяет необходимость добавления действия прохождения маршрута вызова через голосовое меню.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; CheckIvrInCall(GroupCallInfosSync group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a></td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>True, если необходимо добавить действие перехода через голосовое меню, иначе false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DeleteRecordsOutsideDiskSpaceAsync_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DeleteRecordsOutsideDiskSpaceAsync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DeleteRecordsOutsideDiskSpaceAsync_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DeleteRecordsOutsideDiskSpaceAsync(System.Collections.Generic.IEnumerable{System.Int32})">DeleteRecordsOutsideDiskSpaceAsync(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Удаляет записи разговоров за пределами дискового пространства для переданных ВАТС.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteRecordsOutsideDiskSpaceAsync(IEnumerable&lt;int&gt; domainIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">domainIds</span></td>
+        <td><p>Идентификаторы ВАТС.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DetermineExternalNumbers_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DetermineExternalNumbers*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_DetermineExternalNumbers_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Settings_DataModel_GroupCallInfosSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.DetermineExternalNumbers(System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync})">DetermineExternalNumbers(IEnumerable&lt;GroupCallInfosSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Определяет внешний номер телефона для каждой группы и устанавливет его каждой записи этой группы</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DetermineExternalNumbers(IEnumerable&lt;GroupCallInfosSync&gt; resultingCallInfosSync)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a>&gt;</td>
+        <td><span class="parametername">resultingCallInfosSync</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_ExtractinItialrecords_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.ExtractinItialrecords*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_ExtractinItialrecords_System_Collections_Generic_List_System_Linq_IGrouping_System_Guid_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync___" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.ExtractinItialrecords(System.Collections.Generic.List{System.Linq.IGrouping{System.Guid,Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync}})">ExtractinItialrecords(List&lt;IGrouping&lt;Guid, CallInfoSync&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Извлекает из каждой конференции инициирующую запись.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Dictionary&lt;Guid, CallInfoSync&gt; ExtractinItialrecords(List&lt;IGrouping&lt;Guid, CallInfoSync&gt;&gt; syncItemsByProtocolConfId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Linq.IGrouping</span>&lt;<span class="xref">System.Guid</span>, <a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;&gt;</td>
+        <td><span class="parametername">syncItemsByProtocolConfId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Guid</span>, <a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td><p>словарь записей с идентификаторами конференции в качестве ключей</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_ExtractRecordWithOriginalDstNumber_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.ExtractRecordWithOriginalDstNumber*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_ExtractRecordWithOriginalDstNumber_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.ExtractRecordWithOriginalDstNumber(Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync,System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync})">ExtractRecordWithOriginalDstNumber(CallInfoSync, IEnumerable&lt;CallInfoSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Извлекает и з указанных данных номер абонента которому реально предназначался вызов</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CallInfoSync ExtractRecordWithOriginalDstNumber(CallInfoSync initialCdrLine, IEnumerable&lt;CallInfoSync&gt; group)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a></td>
+        <td><span class="parametername">initialCdrLine</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td><span class="parametername">group</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetActionsForOneCallInfo_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetActionsForOneCallInfo*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetActionsForOneCallInfo_Cordis_Core_Sip_Class5_Settings_DataModel_GroupCallInfosSync_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetActionsForOneCallInfo(Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync,Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync)">GetActionsForOneCallInfo(GroupCallInfosSync, CallInfoSync)</h4>
+  <div class="markdown level1 summary"><p>Получает список событий вызова для результирующей записи. Согласно спецификации <a href="https://ckb.itmh.ru/pages/viewpage.action?pageId=347207575">https://ckb.itmh.ru/pages/viewpage.action?pageId=347207575</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;List&lt;CallAction&gt;&gt; GetActionsForOneCallInfo(GroupCallInfosSync callInfo, CallInfoSync callSummary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a></td>
+        <td><span class="parametername">callInfo</span></td>
+        <td><p>Группа записей телефонных вызовов для одного протокольного идентификатора конференции.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a></td>
+        <td><span class="parametername">callSummary</span></td>
+        <td><p>Результирующая запись, для которой необходимо получить список событий вызова.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallAction.html">CallAction</a>&gt;&gt;</td>
+        <td><p>Список событий вызова для результирующей записи</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetGroupValuesAndProrities_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetGroupValuesAndProrities*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetGroupValuesAndProrities_System_Collections_Generic_List_System_Object__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetGroupValuesAndProrities(System.Collections.Generic.List{System.Object})">GetGroupValuesAndProrities(List&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Получает список номеров, соответствующих вызову смаршрутизированому на группу. Первым элементом записывается название группы.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;List&lt;KeyValuePair&lt;string, int&gt;&gt;&gt; GetGroupValuesAndProrities(List&lt;dynamic&gt; rtuUserGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">rtuUserGroup</span></td>
+        <td><p>Поля таблицы группы абонентов для заданного домена.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;&gt;&gt;</td>
+        <td><p>Список номеров.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetResultingCallInfoSync_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetResultingCallInfoSync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetResultingCallInfoSync_System_Collections_Generic_IEnumerable_Cordis_Core_Sip_Class5_Settings_DataModel_GroupCallInfosSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetResultingCallInfoSync(System.Collections.Generic.IEnumerable{Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync})">GetResultingCallInfoSync(IEnumerable&lt;GroupCallInfosSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Определяет результирующие записи CDR-файла для каждого вызова. Из спецификации <a href="https://ckb.itmh.ru/pages/viewpage.action?pageId=347207575">https://ckb.itmh.ru/pages/viewpage.action?pageId=347207575</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;GroupCallInfosSync&gt; GetResultingCallInfoSync(IEnumerable&lt;GroupCallInfosSync&gt; groupsCallInfosSync)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a>&gt;</td>
+        <td><span class="parametername">groupsCallInfosSync</span></td>
+        <td><p>Сгруппированные записи по протокольному идентификатору конференции.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a>&gt;</td>
+        <td><p>Результирующие записи CDR-файла для каждого вызова.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetValuesCallActionForCallPickUp_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetValuesCallActionForCallPickUp*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_GetValuesCallActionForCallPickUp_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync_System_Collections_Generic_List_Cordis_Core_Sip_Class5_Settings_DataModel_GroupCallInfosSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.GetValuesCallActionForCallPickUp(Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync,System.Collections.Generic.List{Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync})">GetValuesCallActionForCallPickUp(CallInfoSync, List&lt;GroupCallInfosSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Получает список значений перехваченного вызова для записи синхронизации с RTU.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; GetValuesCallActionForCallPickUp(CallInfoSync callInfoSync, List&lt;GroupCallInfosSync&gt; allCalls)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a></td>
+        <td><span class="parametername">callInfoSync</span></td>
+        <td><p>Текущая результирующая строка.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a>&gt;</td>
+        <td><span class="parametername">allCalls</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>Список номеров.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_MergeGroupsWithInitialRecords_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.MergeGroupsWithInitialRecords*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_MergeGroupsWithInitialRecords_System_Collections_Generic_List_System_Linq_IGrouping_System_Guid_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync___System_Collections_Generic_Dictionary_System_Guid_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.MergeGroupsWithInitialRecords(System.Collections.Generic.List{System.Linq.IGrouping{System.Guid,Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync}},System.Collections.Generic.Dictionary{System.Guid,Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync})">MergeGroupsWithInitialRecords(List&lt;IGrouping&lt;Guid, CallInfoSync&gt;&gt;, Dictionary&lt;Guid, CallInfoSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>обеденияет группы вызовов и с их инициирующими запясями</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;GroupCallInfosSync&gt; MergeGroupsWithInitialRecords(List&lt;IGrouping&lt;Guid, CallInfoSync&gt;&gt; syncItemsByProtocolConfId, Dictionary&lt;Guid, CallInfoSync&gt; initCallInfoSyncByGroupName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Linq.IGrouping</span>&lt;<span class="xref">System.Guid</span>, <a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;&gt;</td>
+        <td><span class="parametername">syncItemsByProtocolConfId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Guid</span>, <a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td><span class="parametername">initCallInfoSyncByGroupName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a>&gt;</td>
+        <td><p>Объет содержазий группу вызовов и их инициирующую запись</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_SetCallActionForAllCallInfosSync_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.SetCallActionForAllCallInfosSync*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_SetCallActionForAllCallInfosSync_System_Collections_Generic_List_Cordis_Core_Sip_Class5_Settings_DataModel_GroupCallInfosSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.SetCallActionForAllCallInfosSync(System.Collections.Generic.List{Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync})">SetCallActionForAllCallInfosSync(List&lt;GroupCallInfosSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Устанавливает для каждой результирующей записи набор событий вызова.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetCallActionForAllCallInfosSync(List&lt;GroupCallInfosSync&gt; resultingCallInfosSync)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.GroupCallInfosSync.html">GroupCallInfosSync</a>&gt;</td>
+        <td><span class="parametername">resultingCallInfosSync</span></td>
+        <td><p>Список результирующих записей.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_SetCallInfosSyncDomainIds_" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.SetCallInfosSyncDomainIds*"></a>
+  <h4 id="Cordis_Core_Sip_Class5_Settings_CallInfos_Service_CallInfoSyncService_SetCallInfosSyncDomainIds_System_Collections_Generic_List_Cordis_Core_Sip_Class5_Settings_DataModel_CallInfoSync__" data-uid="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.CallInfoSyncService.SetCallInfosSyncDomainIds(System.Collections.Generic.List{Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync})">SetCallInfosSyncDomainIds(List&lt;CallInfoSync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Устанавливает идентификаторы доменов для списка записей разговора синхронизации с RTU.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SetCallInfosSyncDomainIds(List&lt;CallInfoSync&gt; syncItems)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Cordis.Core.Sip.Class5.Settings.DataModel.CallInfoSync.html">CallInfoSync</a>&gt;</td>
+        <td><span class="parametername">syncItems</span></td>
+        <td><p>Список записей разговора для синхронизации с RTU.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Cordis.Core.Sip.Class5.Settings.CallInfos.Service.ICallInfoSyncService.html">ICallInfoSyncService</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
